@@ -32,8 +32,8 @@
             <ul class="header__menu">
                 <li> <a href="#about" class="header__menu-item">About us</a></li>
                 <li> <a href="#places" class="header__menu-item">Itinerary</a></li>
-                <li> <a href="#testiminials" class="header__menu-item">Testiminials</a></li>
-                <li> <a href="#blog" class="header__menu-item">Blog</a></li>
+                <li> <a href="#" class="header__menu-item">Testiminials</a></li>
+                <li> <a href="#" class="header__menu-item">Blog</a></li>
                 <li> <a href="#contacts" class="header__menu-item">Contacts</a></li>
                 <li> <a href="#contact-form" class="header__menu-item header__button">Join Us</a></li>
             </ul>
@@ -175,127 +175,134 @@
         </section>
         <!--Pavlo Dzhafarov the end-->
         
-        <!--Makarii Hlyva start block "Places"-->>
-        <section class="places" id="places">
-            <div class="places"> 
-                <h3 class=""><span class="divider">━</span>Places</h3>                      <!--tags <h?> and DIVIDER is the same in all pape, so I think we should use the same class-->
-                <p class="">Where do we go</p>                                              <!--this part of text also should have the same style in all page-->
-                <p class="">10 days of travel and unique places in Norvay are 
-                    waiting for us. Read more about each place from our itinerary</p>       <!-- the same -->
-                <div class="places__cities">
-                    <div class="places__cities__city city">
-                        <p class="city__name" id="city_name">Oslo</p>
-                        <img src="img/places-block/oslo.jpeg" alt="Oslo" width="200">
-                        <p class="city__point">Oslo - First point</p>
-                        <p class="city__main-info">The Capital and Largest city of Norway</p>
-                        <p class="city__nights-quantity">1 night</p>
-                        <p class="city__hotel-name">Scandic Hotel</p>
-                        <p class="city__info">We start our jorney from Oslo, the capital of Norwa.
-                            On a walking tour, you will see the opera house, parlament, the royal
-                            palaca, and more.
-                        </p>
-                        <div class="city__hotel-info">
-                            <img src="img/svg/places-block/hotel.svg" width="20" alt="Dinner included">
-                            <p> - Dinner included</p>
-                            <img src="img/svg/places-block/baggage.svg" width="20" alt="Leave your backpack in the hotel">
-                            <p> - Leave your backpack in the hotel</p>
-                            <img src="img/svg/places-block/plane.svg" width="20" alt="Transfer from the airport">
-                            <p> - Transfer from the airport</p>
-                        </div>
-                        </div>
-                            <a class="city__button-book" href="#">Book now -></a>
-                        </div>
-                    <div class="places__cities__city city">
-                        <p class="" id="city_name">Trondheim</p>
-                        <img src="img/places-block/trondheim.jpeg" alt="Trondheim" width="200">
-                        <p class="city__point">Trondheim - Second point</p>
-                        <p class="city__main-info">The firs capital with the Royal Residance</p>
-                        <p class="city__nights-quantity">2 nights</p>
-                        <p class="city__hotel-name">Radisson Hotel</p>
-                        <p class="city__info">The main Christmas landmark of Norway, the Nidaros Cathedral is located here.
-                            The architectural sign of the new era is high TV tower with a revolving restaurant
-                        </p>
-                        <div class="city__hotel-info">
-                            <img src="img/svg/places-block/arrive.svg" width="20" alt="Arriving at 9 a.m">
-                            <p> - Arriving at 9 a.m.</p>
-                            <img src="img/svg/places-block/instagram-photo.svg" width="20" alt="Instagram-friendly places">
-                            <p> - Instagram-friendly places</p>
-                            <img src="img/svg/places-block/walking-tour.svg" width="20" alt="3-hours walking tour">
-                            <p> - 3-hours walking tour</p>
-                        </div>
-                        </div>
-                            <a class="city__button-book" href="#">Book now -></a>
-                        </div>
+        <!--Makarii Hlyva start block "Places"-->
+        <div class="places" id="places">
+            <h3 class=""><span class="divider">━</span>Places</h3>                     <!--tags <h?> and DIVIDER is the same in all pape, so I think we should use the same class-->
+            <p class="places__where-go">Where do we go</p>                                             
+            <p class="places__trip-info">10 days of travel and unique places in Norvay are 
+                waiting for us. Read more about each place from our itinerary</p>
+            <div class="places__links">                                                                                 <!--Block with links to cities-->
+                <ul class="places__links__links-to-places link-to-places">
+                    <li class="link-to-places__place"><a href="#oslo">Oslo</a></li>
+                    <li class="link-to-places__place"><a href="#trondheim">Trondheim</a></li>
+                    <li class="link-to-places__place"><a href="#bode">Bode</a></li>
+                    <li class="link-to-places__place"><a href="#lofoten-islands">Lofoten Islands</a></li>
+                    <li class="link-to-places__place"><a href="#tromse">Tromse</a></li>
+                </ul>
+            </div>
+            <div class="places__cities">
+                <div class="places__cities__city city" id="oslo">                                                       <!--Oslo block-->
+                    <p class="city__name">Oslo</p>
+                    <img src="img/places-block/oslo.jpeg" alt="Oslo" width="200">
+                    <p class="city__point">Oslo - First point</p>
+                    <p class="city__main-info">The Capital and Largest city of Norway</p>
+                    <p class="city__nights-quantity">1 night</p>
+                    <p class="city__hotel-name">Scandic Hotel</p>
+                    <p class="city__info">We start our jorney from Oslo, the capital of Norwa.
+                        On a walking tour, you will see the opera house, parlament, the royal
+                        palaca, and more.
+                    </p>
+                    <div class="city__hotel-info">
+                        <img src="img/svg/places-block/hotel.svg" width="20" alt="Dinner included">
+                        <p> - Dinner included</p>
+                        <img src="img/svg/places-block/baggage.svg" width="20" alt="Leave your backpack in the hotel">
+                        <p> - Leave your backpack in the hotel</p>
+                        <img src="img/svg/places-block/plane.svg" width="20" alt="Transfer from the airport">
+                        <p> - Transfer from the airport</p>
                     </div>
-                    <div class="places__cities__city city">
-                        <p class="" id="city_name">Bode</p>
-                        <img src="img/places-block/bode.jpeg" alt="Bode" width="200">
-                        <p class="city__point">Bode - Third point</p>
-                        <p class="city__main-info">Unique Fishing Spol in Fascinaling Scenery</p>
-                        <p class="city__nights-quantity">2 nights</p>
-                        <p class="city__hotel-name">Gronheim Guesthouse</p>
-                        <p class="city__info">We'we left "urban" Norway, and Bode is our first stop for no sightseeing.
-                            We will simply go fishing, enjoy the fresh air, and try dishes with salmon and trout
-                        </p>
-                        <div class="city__hotel-info">
-                            <img src="img/svg/places-block/fishing-spots.svg" width="20" alt="Fishing spot">
-                            <p> - Fishing spot</p>
-                            <img src="img/svg/places-block/fish-dinner.svg" width="20" alt="Fish dinner">
-                            <p> - Fish dinner</p>
-                            <img src="img/svg/places-block/cable-car.svg" width="20" alt="Cable car ride">
-                            <p> - Cable car ride</p>
-                        </div>
-                        </div>
-                            <a class="city__button-book" href="#">Book now -></a>
-                        </div>
                     </div>
-                    <div class="places__cities__city city">
-                        <p class="" id="city_name">Lofoten Islands</p>
-                        <img src="img/places-block/lofoten-iIslands.jpeg" alt="Lofoten Islands" width="200">
-                        <p class="city__point">Lofoten Islands - Fourth point</p>
-                        <p class="city__main-info">Stunning Place Beyond Arclic circle</p>
-                        <p class="city__nights-quantity">2 nights</p>
-                        <p class="city__hotel-name">Cabin Hotel</p>
-                        <p class="city__info">The islands are located in the harsh waters of the Norwegian Sea. It is a land
-                            of wild nature, majestic mountains, fjords, and long sandy beaches.
-                        </p>
-                        <div class="city__hotel-info">
-                            <img src="img/svg/places-block/beaches.svg" width="20" alt="Unique beaches">
-                            <p> - Unique beaches</p>
-                            <img src="img/svg/places-block/liqueurs.svg" width="20" alt="Tasting of local liqueurs">
-                            <p> - Tasting of local liqueurs</p>
-                            <img src="img/svg/places-block/boat.svg" width="20" alt="Boat trip">
-                            <p> - Boat trip</p>
-                        </div>
-                        </div>
-                            <a class="city__button-book" href="#">Book now -></a>
-                        </div>
+                        <a class="city__button-book" href="#">Book now -></a>
                     </div>
-                    <div class="places__cities__city city">
-                        <p class="" id="city_name">Tromse</p>
-                        <img src="img/places-block/tromse.jpeg" alt="Tromse" width="200">
-                        <p class="city__point">Tromse - Final point</p>
-                        <p class="city__main-info">Spot for Hunting the Northern Lights</p>
-                        <p class="city__nights-quantity">3 nights</p>
-                        <p class="city__hotel-name">Scandic Hotel</p>
-                        <p class="city__info">The largest Norwegian city in the Arctic Circle is also called "Paris of the North". The
-                            main attractions are the Polar Museum and the Arctic Cathedral.
-                        </p>
-                        <div class="city__hotel-info">
-                            <img src="img/svg/places-block/souvenirs.svg" width="20" alt="Free souvenirs">
-                            <p> - Free souvenirs</p>
-                            <img src="img/svg/places-block/plane.svg" width="20" alt="International airport">
-                            <p> - International airport</p>
-                            <img src="img/svg/places-block/northern-lights.svg" width="20" alt="Notrhen Lights">
-                            <p> - Northen Linghts</p>
-                        </div>
-                        </div>
-                            <a class="city__button-book" href="#">Book now -></a>
-                        </div>
+                <div class="places__cities__city city" id="trondheim">                                                  <!--Trondheim block-->
+                    <p class="city__name">Trondheim</p>
+                    <img src="img/places-block/trondheim.jpeg" alt="Trondheim" width="200">
+                    <p class="city__point">Trondheim - Second point</p>
+                    <p class="city__main-info">The firs capital with the Royal Residance</p>
+                    <p class="city__nights-quantity">2 nights</p>
+                    <p class="city__hotel-name">Radisson Hotel</p>
+                    <p class="city__info">The main Christmas landmark of Norway, the Nidaros Cathedral is located here.
+                        The architectural sign of the new era is high TV tower with a revolving restaurant
+                    </p>
+                    <div class="city__hotel-info">
+                        <img src="img/svg/places-block/arrive.svg" width="20" alt="Arriving at 9 a.m">
+                        <p> - Arriving at 9 a.m.</p>
+                        <img src="img/svg/places-block/instagram-photo.svg" width="20" alt="Instagram-friendly places">
+                        <p> - Instagram-friendly places</p>
+                        <img src="img/svg/places-block/walking-tour.svg" width="20" alt="3-hours walking tour">
+                        <p> - 3-hours walking tour</p>
+                    </div>
+                    </div>
+                        <a class="city__button-book" href="#">Book now -></a>
+                    </div>
+                </div>
+                <div class="places__cities__city city" id="bode">                                                      <!--Bode block-->
+                    <p class="city__name">Bode</p>
+                    <img src="img/places-block/bode.jpeg" alt="Bode" width="200">
+                    <p class="city__point">Bode - Third point</p>
+                    <p class="city__main-info">Unique Fishing Spol in Fascinaling Scenery</p>
+                    <p class="city__nights-quantity">2 nights</p>
+                    <p class="city__hotel-name">Gronheim Guesthouse</p>
+                    <p class="city__info">We'we left "urban" Norway, and Bode is our first stop for no sightseeing.
+                        We will simply go fishing, enjoy the fresh air, and try dishes with salmon and trout
+                    </p>
+                    <div class="city__hotel-info">
+                        <img src="img/svg/places-block/fishing-spots.svg" width="20" alt="Fishing spot">
+                        <p> - Fishing spot</p>
+                        <img src="img/svg/places-block/fish-dinner.svg" width="20" alt="Fish dinner">
+                        <p> - Fish dinner</p>
+                        <img src="img/svg/places-block/cable-car.svg" width="20" alt="Cable car ride">
+                        <p> - Cable car ride</p>
+                    </div>
+                    </div>
+                        <a class="city__button-book" href="#">Book now -></a>
+                    </div>
+                </div>
+                <div class="places__cities__city city" id="lofoten-islands">                                            <!--Lofoten Islands block-->
+                    <p class="city__name">Lofoten Islands</p>
+                    <img src="img/places-block/lofoten-iIslands.jpeg" alt="Lofoten Islands" width="200">
+                    <p class="city__point">Lofoten Islands - Fourth point</p>
+                    <p class="city__main-info">Stunning Place Beyond Arclic circle</p>
+                    <p class="city__nights-quantity">2 nights</p>
+                    <p class="city__hotel-name">Cabin Hotel</p>
+                    <p class="city__info">The islands are located in the harsh waters of the Norwegian Sea. It is a land
+                        of wild nature, majestic mountains, fjords, and long sandy beaches.
+                    </p>
+                    <div class="city__hotel-info">
+                        <img src="img/svg/places-block/beaches.svg" width="20" alt="Unique beaches">
+                        <p> - Unique beaches</p>
+                        <img src="img/svg/places-block/liqueurs.svg" width="20" alt="Tasting of local liqueurs">
+                        <p> - Tasting of local liqueurs</p>
+                        <img src="img/svg/places-block/boat.svg" width="20" alt="Boat trip">
+                        <p> - Boat trip</p>
+                    </div>
+                    </div>
+                        <a class="city__button-book" href="#">Book now -></a>
+                    </div>
+                </div>
+                <div class="places__cities__city city" id="tromse">                                                     <!--Tromse block-->
+                    <p class="city__name">Tromse</p>
+                    <img src="img/places-block/tromse.jpeg" alt="Tromse" width="200">
+                    <p class="city__point">Tromse - Final point</p>
+                    <p class="city__main-info">Spot for Hunting the Northern Lights</p>
+                    <p class="city__nights-quantity">3 nights</p>
+                    <p class="city__hotel-name">Scandic Hotel</p>
+                    <p class="city__info">The largest Norwegian city in the Arctic Circle is also called "Paris of the North". The
+                        main attractions are the Polar Museum and the Arctic Cathedral.
+                    </p>
+                    <div class="city__hotel-info">
+                        <img src="img/svg/places-block/souvenirs.svg" width="20" alt="Free souvenirs">
+                        <p> - Free souvenirs</p>
+                        <img src="img/svg/places-block/plane.svg" width="20" alt="International airport">
+                        <p> - International airport</p>
+                        <img src="img/svg/places-block/northern-lights.svg" width="20" alt="Notrhen Lights">
+                        <p> - Northen Linghts</p>
+                    </div>
+                    </div>
+                        <a class="city__button-book" href="#">Book now -></a>
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
         <!--Makarii Hlyva end block "Places"-->
 
         <!-- Viktoriia Andriichuk "Stunning Spots" block-->
