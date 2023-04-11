@@ -1,0 +1,5 @@
+.section__mounting{
+    display: flex;
+    background-image: url("/img/mountains.jpg");
+    width: 100%;
+}
