@@ -23,35 +23,7 @@
     <!-- Ivan Lapko -->
     <!-- Vlad Danilchenko -->
     <!-- Mayboroda Yurii -->
-    <header class="header">
-        <!-- Olia Hrytsak header begining-->
-        <nav class="header_nav">
-            <div class="header__logo-container">
-                <img src="img/logo_norvey.png" width="188" height="auto" alt="logo of the site Norvey">
-            </div>
-            <ul class="header__menu">
-                <li> <a href="#about" class="header__menu-item">About us</a></li>
-                <li> <a href="#places" class="header__menu-item">Itinerary</a></li>
-                <li> <a href="#testiminials" class="header__menu-item">Testiminials</a></li>
-                <li> <a href="#blog" class="header__menu-item">Blog</a></li>
-                <li> <a href="#contacts" class="header__menu-item">Contacts</a></li>
-                <li> <a href="#contact-form" class="header__menu-item header__button">Join Us</a></li>
-            </ul>
-        </nav>
-        <div class="header__banner">
-            <p class="header__banner-text"> <span class="colour-divider">━</span>YOUR PERFECT JOURNEY TO</p>
-            <h1 class="header__title">Norvay</h1>
-            <p class="header__video"><img src="img/youtube-icon.svg" alt="YouTube Icon" width="18"> ━ <a href="#numbers">Watch the promo video!</a> </p>
-            <div class="header__card">
-                <img src="img/header-card.jpg" alt="Video of river and a man" class="header__card-img">
-                <h3 class="card__title">Next Trip to Norway</h3>
-                <p class="card__item"><span class="price">$2300</span> <span class="date">17 NOV. - 22 NOV.</span></p>
-                <p class="card__text">10 days of travel and 5 unique places in Norway are waiting for us ...</p>
-                <a href="#places" class="card__title-button">Read more</a>
-            </div>
-        </div>
-        <!-- Olia Hrytsak header and-->
-    </header>
+    <header data-include="partials_folder/header.partial.html"></header>
     <main>
         <!--Roman Hryhorchuk`s block start-->
         <section class="aboutus" id="about">
@@ -111,7 +83,7 @@
         <!--Pavlo Dzhafarov block-->
         <section class="">
             <div class="">
-                <img src="img/A img.png" alt="A">
+                <img src="img/a-img.png" alt="letter A">
 
             </div>
             <div>
@@ -121,12 +93,17 @@
                     our planet was given by the Old-Norse word Norðrvegr, literally meaning "way to the north."</p>
                     <div></div>
                     <p></p>
-
+                    
             </div>
 
         </section>
 
         <!--Pavlo Dzhafarov the end-->
+
+        <!--Viktoriia Andriichuk block start-->
+        <section data-include="partials_folder/spots.partial.html"></section>
+        <!--Viktoriia Andriichuk block end-->
+
         <!-- Hryhorii Videiev begining FAQ-->
         <section class="faq">
             <div class="faq__title"></div>
@@ -164,57 +141,8 @@
             <img width="400" src="img/man-bag.jpg" alt="man with bag">
         </section>
         <!-- Hryhorii Videiev the end FAQ-->>
-        <section class="w-section">
-                 <!--Ivan Lapko block start-->
-         <section class="test" id="test__section">
-            <div class="test__cap" id="test__cap">
-                <p class="test__cap__line"><span class="test__colorbash">-</span> Testimonials</p>
-                <h2 class="test__exp">
-                    Travelers Share Their Experience
-                </h2>
-                <br>
-                <p class="test__exp__toptext">
-                    Norway leaves no one indifferent. Its stunning nature, friendly people, beautiful cities, and delicious cuisine will be remembered forever.
-                </p>
-            </div>
-            <figure class="test__cole-tiers">
-                <img src="img/cole-tiers2.png" alt="cole-tiers" class="test__cole-tiers__photo" width="160">
-                <h3 class="test__cole-tiers__name">
-                    Cole Tiers
-                </h3>
-                <p class="test__cole-tiers__text">
-                    I wanted to see Norway since childhood when I saw a stylish house right in the middle of the Norwegian forest in some magazine. I  thought then that I also want to live in such a house. This dream came true a few months ago on a tour of Norway. I am very happy! Thanks, guys! 
-                </p>
-                <h4 class="test__cole-tiers__date">
-                    October 28, 2021
-                </h4>
-            </figure>
-            <figure class="test__lili-forest">
-                <img src="img/lili-forester.png" alt="lili-forest" class="test__lili-forest__photo" width="160">
-                <h3 class="test__lili-forest__name">
-                    Lilland Forester
-                </h3>
-                <p class="test__lili-forest__text">
-                    We went on this tour with our daughter, she was 5 years old. I was worried that it would be difficult for her but everything went great. We spent nights in good hotels with excellent breakfasts. My daughter always had something to eat, and the nature in Norway fascinated her even more than us!
-                </p>
-                <h4 class="test__lili-forest__date">
-                    May 13, 2022
-                </h4>
-            </figure>
-            <figure class="test__alice-hand">
-                <img src="img/alice-hendricks.jpeg" alt="alice-hand" class="test__alice-hand__photo" width="160">
-                <h3 class="test__alice-hand__name">
-                    Cole Tiers
-                    Alice Hendricks
-                </h3>
-                <p class="test__alice-hand__text">
-                    I still can't believe I have seen the Northern Lights with my own eyes! That was incredible! When we arrived in Tromsø, it was constantly snowing, the weather was bad, and the guide said that we were out of luck, most likely. But on the last night, right at midnight, the clouds left, and I saw it! It was magical!
-                </p>
-                <h4 class="test__alice-hand__date">
-                    January 12, 2022
-                </h4>
-            </figure>
-         </section>
+        <!-- Maiboroda Yriy section Blog start -->
+        <section class="w-section" id="blog">
          <section class="w-section">
             <div class="blog-wrapper">
               <div class="qwe">
@@ -235,11 +163,12 @@
               <p>No blog posts yet...</p>
             </div>
           </section>
+          <!-- Maiboroda Yriy section Blog end -->
         <!--Ivan Lapko block start-->
-        <section data-include="#testimonials.partial.html"></section>
+        <section data-include="partials_folder/testimonials.partial.html"></section>
         <!--Ivan Lpako block end-->
         <!--Volodymyr Biloholovskyi footer begining-->
-        <section class="section__mounting">
+        <section class="section__mounting" id="contacts">
             <div class="section__column">
                 <span class="mounting__column-icon"></span>
                 <p class="mounting__invintation-info">Write Us</p>
@@ -281,7 +210,7 @@
         </div>
     </footer>
     <!--Volodymyr Biloholovsjyi footer end-->
-    <script src="js/html-data-include.js"></script>
+        <script src="js/html-data-include.js"></script>
 </body>
-<script src="js/html-data-include.js"></script>
+
 </html>
