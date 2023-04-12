@@ -74,7 +74,8 @@
     margin-top: 30px;
 }
 
-.footer-container__li, .footer-container__li a,
+.footer-container__li,
+.footer-container__li a,
 .footer-container__created,
 .rights_lower_block {
     padding-left: 20px;
@@ -102,9 +103,11 @@
 .ul_lower_block__links_li i {
     color: white;
 }
-.mounting__column-address-email{
+
+.mounting__column-address-email {
     text-decoration: underline;
 }
+
 .footer-container__li a {
     text-decoration: none;
 }
