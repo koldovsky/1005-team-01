@@ -1,15 +1,15 @@
 .section__mounting {
     background-image: url(/img/mountains.jpg);
-    background-size: cover;
+    background-size: 100%;
     width: 100%;
     background-repeat: no-repeat;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     height: 578px;
     vertical-align: bottom;
     flex-direction: row;
     flex-wrap: nowrap;
-    align-content: end;
+    background-position: center;
 }
 
 .section__column {
@@ -18,7 +18,7 @@
     padding: 40px;
     align-self: center;
     text-align: center;
-    width: 33%;
+    width: 30%;
     margin: 0 1%;
 }
 
@@ -74,7 +74,7 @@
     margin-top: 30px;
 }
 
-.footer-container__li,
+.footer-container__li, .footer-container__li a,
 .footer-container__created,
 .rights_lower_block {
     padding-left: 20px;
@@ -87,6 +87,7 @@
     justify-content: space-between;
     margin-top: 30px;
     padding-bottom: 30px;
+    margin: 30px 50px 0 50px;
 }
 
 .footer-container__ul_lower_block {
@@ -100,4 +101,10 @@
 
 .ul_lower_block__links_li i {
     color: white;
+}
+.mounting__column-address-email{
+    text-decoration: underline;
+}
+.footer-container__li a {
+    text-decoration: none;
 }
