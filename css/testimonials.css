@@ -1,18 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Playfair+Display:wght@700&display=swap');
 body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
-.test_exp {
-    color: #505155;
-    font-family: 'Playfair Display', serif;
-    font-style: normal;
-    font-size: 39px;
-    font-weight: 800;
-    line-height: 46.8px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 1.17px;
 }
