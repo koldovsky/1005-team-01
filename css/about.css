@@ -37,7 +37,13 @@
 .cards{
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    padding: 0px 20px;
+    padding-top: 40px;
+    background-image: url(img/background__about.jpg);
+    height: 490px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 .picture-of-number{
     height: 100px;
@@ -47,7 +53,8 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     padding: 10px;
     margin: 15px;
+    height: 240px;
+    background-color: white;
 }
