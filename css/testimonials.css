@@ -16,6 +16,7 @@
     max-width: 720px;
     height: auto;
     align-items: center;
+    flex-direction: column;
 }
 
 .test__exp {
