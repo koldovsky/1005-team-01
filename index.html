@@ -10,6 +10,9 @@
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
     <link rel="stylesheet" href="css/contact-us.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto&display=swap" rel="stylesheet"> 
 </head>
 
 <body>
@@ -28,54 +31,7 @@
     <header data-include="partials_folder/header.partial.html"></header>
     <main>
         <!--Roman Hryhorchuk`s block start-->
-        <section class="aboutus" id="about">
-            <div class="about-us">
-                <h3 class="about-us__topic"><span class="red-">-</span>ABOUT US</h3>
-                <div class="about-us__tours texts">
-                    <p class="texts__tours">
-                        Expertly crefted tours to Norway. 10 days of admiring nordic cities, fjords and waterfalls.
-                    </p>
-                </div>
-                <div class="texts__offer offer">
-                    <p class="offer__text">
-                        We offer guided tours in Norway - one of the most beautiful Nordic countries. We will cross the
-                        entire country, from Oslo to Tromsø, visit amazing cities, and see stunning nature.
-                    </p>
-                    <p class="offer__text">The program is carefully thought out, there are no more than 10 people in
-                        each
-                        group plus an English-speaking guide. Comfortable vans and nights in 3*+ hotels are included in
-                        the
-                        price.</p>
-                </div>
-            </div>
-            <div class="cards">
-                <div class="cards__style">
-                    <img style="height: 30px;"
-                        src="https://res2.weblium.site/res/5f0f108db6bcbd0022791194/5f101af91e37730021032704_optimized_1223_e1523x921-0x0?nowebp"
-                        alt="Number One" class="picture-of-number">
-                    <p class="cards__topic">Contact us</p>
-                    <p class="cards__text">Some tour conditions may be changed according to the season. To learn more
-                        about
-                        the program, please contact us.</p>
-                </div>
-                <div class="cards__style">
-                    <img style="height: 30px;"
-                        src="https://res2.weblium.site/res/5f0f108db6bcbd0022791194/5f101af64d774d00213e9e92_optimized_1397_e1768x958-0x10?nowebp"
-                        alt="Number two" class="picture-of-number">
-                    <p class="cards__topic">Pick a date</p>
-                    <p class="cards__text">We conduct tours all year round, almost every week, but the most comfortable
-                        weather for sightseeing is in summer.</p>
-                </div>
-                <div class="cards__style">
-                    <img style="height: 30px;"
-                        src="https://res2.weblium.site/res/5f0f108db6bcbd0022791194/5f101af3b6bcbd00227dd3f4_optimized_1343_e1366x983-0x8?nowebp"
-                        alt="Number three" class="picture-of-number">
-                    <p class="cards__topic">Start your journey</p>
-                    <p class="cards__text">If necessary, we help you apply for a visa to Norway, as well as advise what
-                        things you should take with you.</p>
-                </div>
-            </div>
-        </section>
+        <section data-include="partials_folder/about.partial.html"></section>
         <!--Roman Hryhorchuk`s block end-->
 
         <!--Yana Gavrilyuk block-->
@@ -109,22 +65,22 @@
         <!-- Hryhorii Videiev begining FAQ-->
         <section class="faq">
             <div class="faq__title"></div>
-                <p class="faq__title-pretitle"><span class="colorbash">━</span> FAQ</p>
-                <h2 class="faq__title-major">Explore our expertly crafted tours</h2>
-                <p class="faq__title-text">
-                    We tried to make our Norway tour as comfortable and interesting as possible. 
-                    If you still have questions, you can contact us directly or fill out the form below.
-                </p>
+            <p class="faq__title-pretitle"><span class="colorbash">━</span> FAQ</p>
+            <h2 class="faq__title-major">Explore our expertly crafted tours</h2>
+            <p class="faq__title-text">
+                We tried to make our Norway tour as comfortable and interesting as possible.
+                If you still have questions, you can contact us directly or fill out the form below.
+            </p>
             <div class="faq__acordion accordion">
                 <div class="acordion__part">
                     <p class="acordion__part-major">Does this tour require physical fitness?</p>
-                    <p class="acordion__part-minor">This tour is suitable for untrained tourists. 
+                    <p class="acordion__part-minor">This tour is suitable for untrained tourists.
                         No cliff climbing, we promise.</p>
-                </div> 
+                </div>
                 <div class="acordion__part">
                     <p class="acordion__part-major">Will I be able to see the Northern Lights?</p>
-                    <p class="acordion__part-minor">We cannot promise you this. 
-                        The Northern Lights only appear in winter under special circumstances. 
+                    <p class="acordion__part-minor">We cannot promise you this.
+                        The Northern Lights only appear in winter under special circumstances.
                         But we will hunt it in Tromsø.</p>
                 </div>
                 <div class="acordion__part">
@@ -133,9 +89,9 @@
                 </div>
                 <div class="acordion__part">
                     <p class="acordion__part-major">Can I join you not in Oslo, but in another city?</p>
-                    <p class="acordion__part-minor">Depending on the weather conditions, 
-                        our route may change, 
-                        so we strongly recommend starting with other tourists from Oslo. 
+                    <p class="acordion__part-minor">Depending on the weather conditions,
+                        our route may change,
+                        so we strongly recommend starting with other tourists from Oslo.
                         We do not change the route to pick up tourists on the way.
                     </p>
                 </div>
@@ -157,7 +113,6 @@
                             <h2 class="text-blog-heading">BLOG</h2>
                         </div>
                         <div class="blog-subtitle">
-                            <h3>Our Latest Stories</h3>
                             <h3 class="text-blog-subtitle">Our Latest Stories</h3>
                         </div>
                         <div class="blog-content">
@@ -170,11 +125,15 @@
                     <p>No blog posts yet...</p>
                 </div>
             </section>
-            <!-- Maiboroda Yriy section Blog end -->
-            <!--Volodymyr Biloholovskyi footer begining-->
-            <section data-include="partials_folder/footer.partial.html">
-                <!--Volodymyr Biloholovsjyi footer end-->
-                <script src="js/html-data-include.js"></script>
+        </section>
+        <!-- Maiboroda Yriy section Blog end -->
+        <!--Volodymyr Biloholovskyi footer begining-->
+        <section data-include="partials_folder/address_partial.html"></section>
+    </main>
+    <footer data-include="partials_folder/footer_partial.html"></footer>
+    <!--Volodymyr Biloholovsjyi footer end-->
+    <script src="js/html-data-include.js"></script>
+
 </body>
 
 </html>

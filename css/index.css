@@ -1,7 +1,8 @@
 @import "global.css";
 @import "header.css";
-@import "section_m.css";
+@import "section_m_y.css";
 @import "footer.css";
 @import "tour.css";
 @import "contact-us.css";
-@import "testimonials.css"
+@import "testimonials.css";
+@import "about.css";
