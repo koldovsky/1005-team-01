@@ -4,22 +4,25 @@
  position: relative;
  text-align: center;
  background-position: 100%;
- background-image: url(https://res2.weblium.site/res/5f0f108db6bcbd0022791194/5f11a83835b22b0022e9ea70?nowebp);
+ background-image: url(../img/join_us_background.png);
  background-size: cover;
  display: flex;
 
   }
   .contact-form__h2 {
-    color: rgba(255,255,255,1);
+    color: rgba(167, 167, 169, 1);
+    font-family: 'Roboto', sans-serif;
     font-size: 12px;
     padding-top: 35px;
     padding-bottom: 25px;
   }
 
   .contact-form__h3 {
+    font-weight: 419px;
     font-weight: 700;
-    font-size: 34px;
+    font-size: 39px;
     color: rgba(255,255,255, 1);
+    font-family: 'Playfair Display', serif;
   }
 
   .contact-form__p {
@@ -27,12 +30,12 @@
     padding-bottom: 30px;
     margin-left: 20px;
     margin-right: 20px;
-    color: rgba(255,255,255, 1);
+    color: rgba(167, 167, 169, 1);
     border-style: inherit;
-   
     font-size: 17px;
     line-height: 29px;
     font-weight: 400;
+    font-family: 'Roboto', sans-serif;
   }
 
   .contact-form__border {
@@ -40,49 +43,59 @@
     height: 630px;
     padding: 0;
     margin: auto;
-    width: 450px;
-    height: 700px;
+    width: 570px;
+    height: 699px;
     background-color: rgb(35, 36, 40);
     background-size: cover;
   }
 
   .contact-form__name {
-    margin-bottom: 5%;
+    margin-top: 5%;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 450px;
+    height: 45px;
     background-color: rgb(45, 46, 52, 1);
-    padding-bottom: 3%;
-    padding-top: 3%;
-    padding-left: 20%;
-    padding-right: 20%;
     border: none;
   }
 
   .contact-form__phone {
-    margin-bottom: 5%;
+    width: 450px;
+    height: 45px;
+    margin-top: 5%;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 20px;
+    padding-right: 20px;
     background-color: rgb(45, 46, 52, 0.8);
-    padding-bottom: 3%;
-    padding-top: 3%;
-    padding-left: 20%;
-    padding-right: 20%;
     border: none;
   }
 
   .contact-form__email {
-    margin-bottom: 5%;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 20px;
+    padding-right: 20px;
+   
+    width: 450px;
+    height: 45px;
     background-color: rgb(45, 46, 52, 0.8);
-    padding-bottom: 3%;
-    padding-top: 3%;
-    padding-left: 20%;
-    padding-right: 20%;
+    margin-top: 5%;
     border: none;
   }
 
   .contact-form__date {
+    margin-top: 5%;
     margin-bottom: 5%;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 20px;
+    padding-right: 20px;
     background-color: rgb(45, 46, 52, 0.8);
-    padding-bottom: 3%;
-    padding-top: 3%;
-    padding-left: 20%;
-    padding-right: 20%;
+    width: 450px;
+    height: 45px;
     border: none;
   }
 
@@ -90,3 +103,20 @@
     margin-top: 5%
   }
 
+  input:focus {
+    color: white;
+    outline: auto;
+    outline-color: rgb(59, 153, 252);
+  }
+
+  .blog-heading__line {
+    width: 10px;
+    height: 1px;
+    background-color: red;
+    margin-right: 4px;
+    margin-bottom: 2.3px;
+  }
+
+    .colorbash {
+      color: rgb(238,46,20);
+    }
