@@ -8,6 +8,8 @@
     <title>Norway</title>
     <link rel="shortcut icon" href="img/shortcut-icon.png" type="image/x-icon">
     <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/contact-us.css">
 </head>
 
 <body>
@@ -23,35 +25,7 @@
     <!-- Ivan Lapko -->
     <!-- Vlad Danilchenko -->
     <!-- Mayboroda Yurii -->
-    <header class="header">
-        <!-- Olia Hrytsak header begining-->
-        <nav class="header_nav">
-            <div class="header__logo-container">
-                <img src="img/logo_norvey.png" width="188" height="auto" alt="logo of the site Norvey">
-            </div>
-            <ul class="header__menu">
-                <li> <a href="#about" class="header__menu-item">About us</a></li>
-                <li> <a href="#places" class="header__menu-item">Itinerary</a></li>
-                <li> <a href="#testiminials" class="header__menu-item">Testiminials</a></li>
-                <li> <a href="#blog" class="header__menu-item">Blog</a></li>
-                <li> <a href="#contacts" class="header__menu-item">Contacts</a></li>
-                <li> <a href="#contact-form" class="header__menu-item header__button">Join Us</a></li>
-            </ul>
-        </nav>
-        <div class="header__banner">
-            <p class="header__banner-text"> <span class="colour-divider">━</span>YOUR PERFECT JOURNEY TO</p>
-            <h1 class="header__title">Norvay</h1>
-            <p class="header__video"><img src="img/youtube-icon.svg" alt="YouTube Icon" width="18"> ━ <a href="#numbers">Watch the promo video!</a> </p>
-            <div class="header__card">
-                <img src="img/header-card.jpg" alt="Video of river and a man" class="header__card-img">
-                <h3 class="card__title">Next Trip to Norway</h3>
-                <p class="card__item"><span class="price">$2300</span> <span class="date">17 NOV. - 22 NOV.</span></p>
-                <p class="card__text">10 days of travel and 5 unique places in Norway are waiting for us ...</p>
-                <a href="#places" class="card__title-button">Read more</a>
-            </div>
-        </div>
-        <!-- Olia Hrytsak header and-->
-    </header>
+    <header data-include="partials_folder/header.partial.html"></header>
     <main>
         <!--Roman Hryhorchuk`s block start-->
         <section class="aboutus" id="about">
@@ -111,7 +85,7 @@
         <!--Pavlo Dzhafarov block-->
         <section class="">
             <div class="">
-                <img src="img/A img.png" alt="A">
+                <img src="img/a-img.png" alt="letter A">
 
             </div>
             <div>
@@ -119,14 +93,19 @@
                 <h2>Land of The Midnight Sun</h2>
                 <p>It is believed that the name of this distinctive country and one of the most breathtaking places on
                     our planet was given by the Old-Norse word Norðrvegr, literally meaning "way to the north."</p>
-                    <div></div>
-                    <p></p>
+                <div></div>
+                <p></p>
 
             </div>
 
         </section>
 
         <!--Pavlo Dzhafarov the end-->
+
+        <!--Viktoriia Andriichuk block start-->
+        <section data-include="partials_folder/spots.partial.html"></section>
+        <!--Viktoriia Andriichuk block end-->
+
         <!-- Hryhorii Videiev begining FAQ-->
         <section class="faq">
             <div class="faq__title"></div>
@@ -163,21 +142,32 @@
             </div>
             <img width="400" src="img/man-bag.jpg" alt="man with bag">
         </section>
+        <!-- Hryhorii Videiev the end FAQ-->>
+        <section data-include="partials_folder/contact-us.partial.html"></section>
         <!--Ivan Lapko block start-->
         <section data-include="partials_folder/testimonials.partial.html"></section>
         <!--Ivan Lpako block end-->
-        <!-- Hryhorii Videiev the end FAQ-->>
-        <section class="w-section">
-         <section class="w-section">
-            <div class="blog-wrapper">
-              <div class="qwe">
-                <div class="blog-heading">
-                  <div class="blog-heading__line"></div>
-                  <h2 class="text-blog-heading">BLOG</h2>
+        <!-- Maiboroda Yriy section Blog start -->
+        <section class="w-section" id="blog">
+            <section class="w-section">
+                <div class="blog-wrapper">
+                    <div class="qwe">
+                        <div class="blog-heading">
+                            <div class="blog-heading__line"></div>
+                            <h2 class="text-blog-heading">BLOG</h2>
+                        </div>
+                        <div class="blog-subtitle">
+                            <h3>Our Latest Stories</h3>
+                            <h3 class="text-blog-subtitle">Our Latest Stories</h3>
+                        </div>
+                        <div class="blog-content">
+                            <p>Start preparing for your trip to Norway with our blog. We write about the most unusual
+                                places in this country and share life hacks.</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="blog-subtitle">
-                  <h3>Our Latest Stories</h3>
-                  <h3 class="text-blog-subtitle">Our Latest Stories</h3>
+                <div class="blog-no-posts">
+                    <p>No blog posts yet...</p>
                 </div>
                 <div class="blog-content">
                   <p>Start preparing for your trip to Norway with our blog. We write about the most unusual places in this country and share life hacks.</p>
@@ -233,5 +223,5 @@
     <!--Volodymyr Biloholovsjyi footer end-->
     <script src="js/html-data-include.js"></script>
 </body>
-<script src="js/html-data-include.js"></script>
+
 </html>

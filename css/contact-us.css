@@ -1,0 +1,92 @@
+.contact-form__background-image {
+ 
+ width: 100%;
+ height: 100%;
+ position: absolute;
+ text-align: center;
+ background-image: url(https://res2.weblium.site/res/5f0f108db6bcbd0022791194/5f11a83835b22b0022e9ea70?nowebp);
+ background-size: cover;
+ display: flex;
+
+  }
+  .contact-form__h2 {
+    color: rgba(255,255,255,1);
+    font-size: 12px;
+    padding-top: 35px;
+    padding-bottom: 25px;
+  }
+
+  .contact-form__h3 {
+    font-weight: 700;
+    font-size: 34px;
+    color: rgba(255,255,255, 1);
+  }
+
+  .contact-form__p {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: rgba(255,255,255, 1);
+    border-style: inherit;
+   
+    font-size: 17px;
+    line-height: 29px;
+    font-weight: 400;
+  }
+
+  .contact-form__border {
+    width: 645px;
+    height: 630px;
+    padding: 0;
+    margin: auto;
+    width: 450px;
+    height: 700px;
+    background-color: rgb(35, 36, 40);
+    background-size: cover;
+  }
+
+  .contact-form__name {
+    margin-bottom: 5%;
+    background-color: rgb(45, 46, 52, 1);
+    padding-bottom: 3%;
+    padding-top: 3%;
+    padding-left: 20%;
+    padding-right: 20%;
+    border: none;
+  }
+
+  .contact-form__phone {
+    margin-bottom: 5%;
+    background-color: rgb(45, 46, 52, 0.8);
+    padding-bottom: 3%;
+    padding-top: 3%;
+    padding-left: 20%;
+    padding-right: 20%;
+    border: none;
+  }
+
+  .contact-form__email {
+    margin-bottom: 5%;
+    background-color: rgb(45, 46, 52, 0.8);
+    padding-bottom: 3%;
+    padding-top: 3%;
+    padding-left: 20%;
+    padding-right: 20%;
+    border: none;
+  }
+
+  .contact-form__date {
+    margin-bottom: 5%;
+    background-color: rgb(45, 46, 52, 0.8);
+    padding-bottom: 3%;
+    padding-top: 3%;
+    padding-left: 20%;
+    padding-right: 20%;
+    border: none;
+  }
+
+  .contact-form__accept-button {
+    margin-top: 5%
+  }
+
