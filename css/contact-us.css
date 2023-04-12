@@ -1,9 +1,9 @@
 .contact-form__background-image {
- 
- width: 100%;
- height: 100%;
+ background-attachment: fixed;
+ min-height: 100vh;
  position: relative;
  text-align: center;
+ background-position: 100%;
  background-image: url(https://res2.weblium.site/res/5f0f108db6bcbd0022791194/5f11a83835b22b0022e9ea70?nowebp);
  background-size: cover;
  display: flex;
