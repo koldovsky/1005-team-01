@@ -30,6 +30,7 @@
     align-items: center;
     text-align: center;
     letter-spacing: 1.17px;
+    margin-top: 20px;
 }
 .test__exp__toptext {
     color: rgb(80, 81, 85);
@@ -41,6 +42,7 @@
     font-style: normal;
     display: flex;
     align-items: center;
+    margin-top: 25px;
 }
 
 .test__cap__line {
@@ -64,12 +66,25 @@
     width: 100%;
     max-width: none;
     height: auto;
+    margin-top: 50px;
 }
 
 .test__cole-tiers__photo {
-    border-radius: 50%;
     border-style: solid;
     height: 120px;
     border-image-width: 1;
     text-align: center;
+    border-color: none;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+
+.test__cole-tiers__name {
+    font-family: "roboto", sans-serif;
+    margin-top: 20px;
+    text-align: center;
+    line-height: 33.6px;
+    font-weight: 500;
+    font-size: 24px;
+    color: black;
 }
