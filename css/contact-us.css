@@ -48,17 +48,19 @@
   .contact-form__border {
     display: block;
     justify-content: center;
-    margin-left: -16%; 
-    bottom: -7%;
+    left: 17%;
+    top: 135px;
+    
+    /* margin-left: -16%;  */
     position: relative;
     padding-top: 130px;
     padding-bottom: 130px;
     width: 570px;
     height: 699px;
     padding: 0;
-    margin: auto;
+    /* margin: auto; */
     background-color: rgb(35, 36, 40);
-    background-size: cover;
+    background-size: auto;
   }
 
   .contact-form__name {
@@ -253,12 +255,16 @@
               .contact-form__border {
                display: block;
                width: 90%;
+               top: 130px;
               }
             }
             @media (max-width: 800px) {
               .contact-form__border {
+                top: 130px;
+               position: relative;
+               
                display: block;
-               width: 90%;
+               width: 70%;
               }
             }
 
