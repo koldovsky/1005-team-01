@@ -54,3 +54,22 @@
     display: flex;
     align-items: center;
 }
+
+.test__alice-hand,
+.test__lili-forest,
+.test__cole-tiers {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    max-width: none;
+    height: auto;
+}
+
+.test__cole-tiers__photo {
+    border-radius: 50%;
+    border-style: solid;
+    height: 120px;
+    border-image-width: 1;
+    text-align: center;
+}
