@@ -105,10 +105,11 @@
     font-weight: 400;
     font-family: "roboto", sans-serif;
     line-height: 28.9px;
-    letter-spacing: 0.59px;
+    letter-spacing: 0.51px;
     position: relative;
     height: auto;
     max-width: 100%;
+    width: auto;
 }
 
 .test__alice-hand__date,
