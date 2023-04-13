@@ -69,6 +69,8 @@
     margin-top: 50px;
 }
 
+.test__lili-forest__photo,
+.test__alice-hand__photo,
 .test__cole-tiers__photo {
     border-style: solid;
     height: 120px;
@@ -79,6 +81,8 @@
     border-bottom-right-radius: 50%;
 }
 
+.test__alice-hand__name,
+.test__lili-forest__name,
 .test__cole-tiers__name {
     font-family: "roboto", sans-serif;
     margin-top: 20px;
