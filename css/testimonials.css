@@ -113,4 +113,17 @@
     max-width: 100%;
 }
 
-
+.test__alice-hand__date,
+.test__lili-forest__date,
+.test__cole-tiers__date {
+    font-family: "roboto", sans-serif;
+    font-weight: 700;
+    line-height: 24px;
+    padding-bottom: 10px;
+    color: rgb(80, 81, 85);
+    font-size: 15px;
+    text-align: center;
+    letter-spacing: normal;
+    position: relative;
+    height: auto;
+}
