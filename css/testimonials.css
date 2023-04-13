@@ -72,8 +72,9 @@
 .test__lili-forest__photo,
 .test__alice-hand__photo,
 .test__cole-tiers__photo {
-    border-style: solid;
+    border-style: hidden;
     height: 120px;
+    width: 120px;
     border-image-width: 1;
     text-align: center;
     border-color: none;
@@ -94,3 +95,22 @@
     font-size: 24px;
     color: black;
 }
+
+.test__alice-hand__text,
+.test__lili-forest__text,
+.test__cole-tiers__text {
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: rgb(112, 112, 112);
+    font-size: 17px;
+    font-weight: 400;
+    font-family: "roboto", sans-serif;
+    line-height: 28.9px;
+    letter-spacing: 0.59px;
+    position: relative;
+    height: auto;
+    max-width: 100%;
+}
+
+
