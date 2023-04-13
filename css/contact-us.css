@@ -1,5 +1,8 @@
+
 .contact-form__background-image {
  background-attachment: fixed;
+ max-width: none;
+ min-width: 320px;
  min-height: 100vh;
  position: relative;
  text-align: center;
@@ -31,27 +34,29 @@
     margin-left: 60px;
     margin-right: 60px;
     color: rgba(167, 167, 169, 1);
-    border-style: inherit;
+   
     font-size: 17px;
     line-height: 29px;
     font-weight: 400;
     font-family: 'Roboto', sans-serif;
     text-align: center;
-    display: flex;
-    width: 450px;
+    
   }
+  
 
+  
   .contact-form__border {
+    display: block;
+    justify-content: center;
+    margin-left: -16%; 
+    bottom: -7%;
     position: relative;
     padding-top: 130px;
     padding-bottom: 130px;
-    margin-left: -50px;
-    width: 645px;
-    height: 630px;
-    padding: 0;
-    margin: auto;
     width: 570px;
     height: 699px;
+    padding: 0;
+    margin: auto;
     background-color: rgb(35, 36, 40);
     background-size: cover;
   }
@@ -152,3 +157,109 @@
     color: black;
     border: none;
   }
+
+  @media (max-width: 480px) {
+    .contact-form__name {
+    width: 80%;
+    height: 40px;
+    padding: 20px;
+    font-size: 16px;
+    }
+    }
+
+    @media (max-width: 480px) {
+      .contact-form__phone {
+      width: 80%;
+      height: 40px;
+      padding: 10px;
+      font-size: 16px;
+      }
+      }
+
+      @media (max-width: 480px) {
+        .contact-form__email {
+        width: 80%;
+        height: 40px;
+        padding: 10px;
+        font-size: 16px;
+        }
+        }
+
+        @media (max-width: 480px) {
+          .contact-form__date {
+          width: 80%;
+          height: 40px;
+          padding: 10px;
+          font-size: 16px;
+          }
+          }
+
+          @media (max-width: 480px) {
+            .contact-form__accept-button {
+            width: 80%;
+            height: 40px;
+            padding: 10px;
+            font-size: 16px;
+            }
+            }
+
+            @media (max-width: 800px) {
+              .contact-form__name {
+              width: 80%;
+              height: 40px;
+              padding: 20px;
+              font-size: 16px;
+              }
+              }
+          
+              @media (max-width: 800px) {
+                .contact-form__phone {
+                width: 80%;
+                height: 40px;
+                padding: 10px;
+                font-size: 16px;
+                }
+                }
+          
+                @media (max-width: 800px) {
+                  .contact-form__email {
+                  width: 80%;
+                  height: 40px;
+                  padding: 10px;
+                  font-size: 16px;
+                  }
+                  }
+          
+                  @media (max-width: 800px) {
+                    .contact-form__date {
+                    width: 80%;
+                    height: 40px;
+                    padding: 10px;
+                    font-size: 16px;
+                    }
+                    }
+          
+                    @media (max-width: 800px) {
+                      .contact-form__accept-button {
+                      width: 80%;
+                      height: 40px;
+                      padding: 10px;
+                      font-size: 16px;
+                      }
+                      }
+
+
+            @media (max-width: 400px) {
+              .contact-form__border {
+               display: block;
+               width: 90%;
+              }
+            }
+            @media (max-width: 800px) {
+              .contact-form__border {
+               display: block;
+               width: 90%;
+              }
+            }
+
+            
