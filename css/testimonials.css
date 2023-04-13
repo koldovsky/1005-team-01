@@ -110,6 +110,8 @@
     height: auto;
     max-width: 100%;
     width: auto;
+    padding-left: 115px;
+    padding-right: 115px;
 }
 
 .test__alice-hand__date,
