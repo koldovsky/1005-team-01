@@ -2,6 +2,7 @@
     background-image: url(../img/header_backgr.jpg);
     background-size: cover;
     padding: 10px;
+    min-width: 700px;
 }
 
 .header__menu {
@@ -48,23 +49,30 @@
     }
 }
 
-.card__title {
+.header__card-title {
     font-size: 17px;
     font-weight: 700;
     text-align: left;
 }
 
-.card__item {
+.header__card-item {
     font-size: 17px;
     font-weight: 500;
     text-align: left;
 }
 
-.card__text {
+.header__card-text {
     color: rgba(255, 255, 255, 0.75);
     font-size: 17px;
     font-weight: 500;
     text-align: left;
+}
+
+.header__card-img {
+    min-width: 348px;
+    max-width: 630px;
+    min-height: 225px;
+    max-width: 410px;
 }
 
 /* @media (min-width: 767px) {
