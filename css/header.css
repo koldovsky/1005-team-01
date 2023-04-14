@@ -22,13 +22,8 @@
     font-size: 12px;
     font-weight: 700;
     text-align: left;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: flex-start;
+
 }
-
-
 
 
 .header__banner {
@@ -41,7 +36,7 @@
     font-weight: bold;
     font-size: 12px;
     text-align: left;
-   
+
 }
 
 .colour-divider {
