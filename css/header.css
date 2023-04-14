@@ -1,0 +1,155 @@
+.header {
+    background-image: url(../img/header_backgr.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    min-width: 700px;
+}
+
+.header_nav {
+    display: flex;
+    flex-direction: row;
+        max-width: 100%;
+}
+.header__logo-container {
+justify-content: flex-start;
+}
+
+.header__menu {
+    display: flex;
+    flex-wrap: wrap;
+    overflow-wrap: break-word;
+    justify-content: space-between;
+    vertical-align: baseline;
+    max-width: 100%;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 200px;
+    flex: 0.75;
+    
+}
+
+.header__menu-item {
+    font-size: 14px;
+    font-weight: 600;
+    text-align: left;
+    text-decoration: none;
+    color: var(--header-text-colour);
+    margin-right: 0px;
+
+}
+
+.header__button {
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    border-style: solid;
+    border-width: thin;
+    cursor: pointer;
+    align-items: center;
+}
+
+.header__button:hover {
+    background-color: var(--header-text-colour);
+    color: black;
+}
+
+.header__video-link {
+    color: var(--header-text-colour);
+    font-size: 12px;
+    font-weight: 700;
+    text-align: left;
+
+}
+
+
+.header__banner {
+    color: var(--header-text-colour);
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.header__banner-text {
+    font-weight: bold;
+    font-size: 12px;
+    text-align: left;
+
+}
+
+.colour-divider {
+    color: rgb(238, 46, 20);
+}
+
+.header__title {
+    font-family: 'Playfair Display', serif;
+    font-size: 125px;
+    font-weight: 600;
+    text-align: left;
+}
+
+.header__card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: flex-start;
+    align-items: flex-start;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+@media (min-width: 767px) {
+    .header__card {
+        justify-content: flex-end;
+        align-items: flex-end;
+        align-content: flex-end;
+    }
+}
+
+.header__card-title {
+    font-size: 17px;
+    font-weight: 700;
+    text-align: left;
+}
+
+.header__card-item {
+    font-size: 17px;
+    font-weight: 500;
+    text-align: left;
+}
+
+.header__card-text {
+    color: rgba(255, 255, 255, 0.75);
+    font-size: 17px;
+    font-weight: 500;
+    text-align: left;
+}
+
+.header__card-img {
+    max-width: 100%;
+    height: auto;
+    transition: all 0.5s ease;
+    display: block;
+    justify-content: center;
+}
+
+.header__card-button {
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+    color: var(--header-text-colour);
+    display: flex;
+    padding: 32px 32px 32px 32px;
+}
+
+.header__pointer {
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+    color: var(--header-text-colour);
+    display: block;
+    width: 24px;
+}
+
+.header__card-button:hover {
+    text-decoration: underline;
+}
