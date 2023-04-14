@@ -9,7 +9,7 @@
 
 :root {
     --header-text-colour: #fff;
-    /* font-family: 'Playfair Display', serif; */
+        /* font-family: 'Playfair Display', serif; */
     font-family: 'Roboto', sans-serif;
     scroll-behavior: smooth;
 }

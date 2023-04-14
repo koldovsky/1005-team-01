@@ -41,6 +41,18 @@
     font-weight: bold;
     font-size: 12px;
     text-align: left;
+   
+}
+
+.colour-divider {
+    color: rgb(238, 46, 20);
+}
+
+.header__title {
+    font-family: 'Playfair Display', serif;
+    font-size: 125px;
+    font-weight: 600;
+    text-align: left;
 }
 
 .header__card {
