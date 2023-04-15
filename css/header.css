@@ -26,11 +26,10 @@
     overflow-wrap: break-word;
     justify-content: space-between;
     vertical-align: baseline;
-    max-width: 100%;
-    width: 651px;
-    flex-direction: row;
+    width: 100%;
+        flex-direction: row;
     align-items: center;
-    /* margin-left: 200px; */
+    padding-left: 200px;
     flex: 0.75;
 
 }
