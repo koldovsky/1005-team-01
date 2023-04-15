@@ -9,12 +9,11 @@
 
 :root {
     --header-text-colour: #fff;
-        /* font-family: 'Playfair Display', serif; */
     font-family: 'Roboto', sans-serif;
     scroll-behavior: smooth;
 }
 
-/* img {
+img {
     display: block;
     width: 100%;
-} */
+}
