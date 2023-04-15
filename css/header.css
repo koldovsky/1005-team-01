@@ -28,8 +28,8 @@
     justify-content: space-between;
     vertical-align: baseline;
     width: 100%;
-        align-items: center;
-    padding-left: 200px;
+    align-items: center;
+    padding-left: 250px;
     padding-right: 5px;
     flex: 0.75;
 
@@ -102,10 +102,11 @@
 
 .header__title {
     font-family: 'Playfair Display', serif;
-    font-size: 125px;
+    font-size: 70px;
     font-weight: 600;
     text-align: left;
 }
+
 
 .header__card {
     display: flex;
@@ -117,62 +118,66 @@
     width: 100%;
 }
 
-@media (min-width: 767px) {
+@media (min-width: 767px) 
+{
     .header__card {
         justify-content: flex-end;
         align-items: flex-end;
         align-content: flex-end;
     }
-}
 
-.header__card-title {
-    font-size: 17px;
-    font-weight: 700;
-    text-align: left;
-    padding-top: 10px;
+    .header__title {
+        font-size: 125px;
+    }
 }
+    .header__card-title {
+        font-size: 17px;
+        font-weight: 700;
+        text-align: left;
+        padding-top: 10px;
+    }
 
-.header__card-item {
-    font-size: 17px;
-    font-weight: 500;
-    text-align: left;
-    padding-top: 10px;
-}
+    .header__card-item {
+        font-size: 17px;
+        font-weight: 500;
+        text-align: left;
+        padding-top: 10px;
+    }
 
-.header__card-text {
-    color: rgba(255, 255, 255, 0.75);
-    font-size: 17px;
-    font-weight: 500;
-    text-align: left;
-    padding-top: 10px;
-}
+    .header__card-text {
+        color: rgba(255, 255, 255, 0.75);
+        font-size: 17px;
+        font-weight: 500;
+        text-align: left;
+        padding-top: 10px;
+    }
 
-.header__card-img {
-    max-width: 100%;
-    height: auto;
-    transition: all 0.5s ease;
-    display: block;
-    justify-content: center;
-}
+    .header__card-img {
+        max-width: 100%;
+        height: auto;
+        transition: all 0.5s ease;
+        display: block;
+        justify-content: center;
+    }
 
-.header__card-button {
-    font-size: 14px;
-    font-weight: 400;
-    text-decoration: none;
-    color: var(--header-text-colour);
-    display: flex;
-    padding-top: 32px;
-}
+    .header__card-button {
+        font-size: 14px;
+        font-weight: 400;
+        text-decoration: none;
+        color: var(--header-text-colour);
+        display: flex;
+        padding-top: 32px;
+    }
 
-.header__pointer {
-    font-size: 14px;
-    font-weight: 400;
-    text-decoration: none;
-    color: var(--header-text-colour);
-    display: block;
-    width: 24px;
-}
+    .header__pointer {
+        font-size: 14px;
+        font-weight: 400;
+        text-decoration: none;
+        color: var(--header-text-colour);
+        display: block;
+        width: 24px;
+    }
 
-.header__card-button:hover {
-    text-decoration: underline;
-}
+    .header__card-button:hover {
+        text-decoration: underline;
+    }
