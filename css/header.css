@@ -3,7 +3,7 @@
     background-size: cover;
     background-position: center;
     padding: 20px;
-    min-width: 700px;
+    /* min-width: 700px; */
 }
 
 .header_nav {
@@ -22,14 +22,15 @@
 
 .header__menu {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: row;
+    flex-wrap: nowrap;
     overflow-wrap: break-word;
     justify-content: space-between;
     vertical-align: baseline;
     width: 100%;
-        flex-direction: row;
-    align-items: center;
+        align-items: center;
     padding-left: 200px;
+    padding-right: 5px;
     flex: 0.75;
 
 }
@@ -128,12 +129,14 @@
     font-size: 17px;
     font-weight: 700;
     text-align: left;
+    padding-top: 10px;
 }
 
 .header__card-item {
     font-size: 17px;
     font-weight: 500;
     text-align: left;
+    padding-top: 10px;
 }
 
 .header__card-text {
@@ -141,6 +144,7 @@
     font-size: 17px;
     font-weight: 500;
     text-align: left;
+    padding-top: 10px;
 }
 
 .header__card-img {
@@ -157,7 +161,7 @@
     text-decoration: none;
     color: var(--header-text-colour);
     display: flex;
-    padding: 32px 32px 32px 32px;
+    padding-top: 32px;
 }
 
 .header__pointer {
