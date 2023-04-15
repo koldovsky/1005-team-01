@@ -9,6 +9,10 @@
 
 :root {
     --header-text-colour: #fff;
+    --ui-dark-accent-color: #505155;
+    --main-title: rgba(255,255,255,0.6);
+    --divider: rgb(238,46,20);
+    --tour-icons: #14a9ee;
     font-family: 'Roboto', sans-serif;
     scroll-behavior: smooth;
 }
