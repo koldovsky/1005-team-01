@@ -1,0 +1,30 @@
+.places {
+    min-width: 320px;
+    max-width: 1200px;
+    align-items: center;
+    padding: 60px 0px 130px;
+}
+
+.divider {                                              
+    color: var(--divider);
+}
+
+.places__title {
+    font-size: 12px;    
+    color: var(--main-title_without_picture);
+    width: 100%;
+}
+
+.places__where-go {
+    font-size: 34px;
+
+}
+
+.city__hotel-info img {
+    width: 20px;
+    height: 24px;
+}
+
+.places__cities__city img {
+    width: 400px;
+}
