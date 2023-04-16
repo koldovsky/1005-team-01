@@ -1,15 +1,15 @@
 .header {
     background-image: url(../img/header_backgr.jpg);
     background-size: cover;
-    background-position: center;
+        background-position: center;
     padding: 20px;
-    /* min-width: 700px; */
+        
 }
 
 .header_nav {
     display: flex;
     flex-direction: row;
-    max-width: 100%;
+    max-width: 1170px;
     padding-left: 24px;
     padding-right: 24px;
 }
@@ -72,6 +72,7 @@
     flex-wrap: nowrap;
     justify-content: flex-start;
     align-items: flex-start;
+    max-width: 470px;
 }
 
 .header__video-link {
@@ -87,6 +88,7 @@
     color: var(--header-text-colour);
     padding-top: 90px;
     padding-bottom: 90px;
+    max-width: 1170px;
 }
 
 .header__banner-text {
