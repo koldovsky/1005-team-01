@@ -14,8 +14,8 @@
 }
 
 .tour-map {
-    width: 272px;
-    height: 290.359px;
+    min-width: 418px;
+    min-height: 445px;
     object-position: 50% 50%;
 }
 
@@ -68,4 +68,25 @@
 .tour__icon {
     height: 26px;
     color: var(--tour-icons);
+}
+
+.tour__info-title {
+    font-size: 18px;
+    font-weight: 700;
+    text-align: left;
+    color: var(--header-text-colour);
+}
+
+.tour__info-text {
+    font-size: 14px;
+    font-weight: 400;
+    text-align: left;
+    color: var(--ui-caption-color-light);
+}
+
+@media (min-width: 767px) {
+    .tour {
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
 }
