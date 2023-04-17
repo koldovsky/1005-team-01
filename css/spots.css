@@ -1,3 +1,7 @@
 .spots {
     background-color: var(--ui-dark-shade-color);
 }
+
+.carousel__slide-icon {
+    height: 26px;
+}
