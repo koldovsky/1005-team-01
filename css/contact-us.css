@@ -46,19 +46,15 @@
 
 
 .contact-form__border {
-  display: block;
+  display: flex;
   justify-content: center;
-  left: 17%;
-  top: 135px;
-
-  /* margin-left: -16%;  */
-  position: relative;
+  margin-left: 367px;
+  margin-top: 135px;
   padding-top: 130px;
   padding-bottom: 130px;
   width: 570px;
   height: 699px;
   padding: 0;
-  /* margin: auto; */
   background-color: rgb(35, 36, 40);
   background-size: auto;
 }
@@ -119,7 +115,6 @@
 .contact-form__accept-button {
   background-color: rgb(20, 169, 238);
   margin-top: 3%;
-  position: relative;
   display: inline-block;
   width: 450px;
   height: 42px;
@@ -261,9 +256,7 @@ input:focus {
 
 @media (max-width: 800px) {
   .contact-form__border {
-    top: 130px;
-    position: relative;
-
+    /* top: 130px; */
     display: block;
     width: 70%;
   }
