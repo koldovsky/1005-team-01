@@ -9,7 +9,7 @@
 
 :root {
     --header-text-colour: #fff;
-    --ui-dark-accent-color: #505155;
+    --ui-dark-accent-color: #505155;                                /*Text color*/
     --main-title: rgba(255,255,255,0.6);
     --main-title_without_picture: #6f7380;                          /*For title without picture in background*/
     --divider: rgb(238,46,20);
@@ -22,3 +22,4 @@ img {
     display: block;
     width: 100%;
 }
+

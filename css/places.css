@@ -1,13 +1,22 @@
 .places {
     min-width: 320px;
-    max-width: 1200px;
     align-items: center;
-    padding: 60px 0px 130px;
+    padding: 60px 0px 90px;
+    color: var(--ui-dark-accent-color);
 }
 
 .divider {                                              
     color: var(--divider);
     
+}
+
+.places__inner{
+    padding: 0px 24px 0px 24px;
+    border: 1px solid red;                                                  /*just for testing:)*/
+}
+
+.pleces__header{
+    border: 1px solid green;                                                /*just for testing*/
 }
 
 .places__title {
@@ -18,7 +27,22 @@
 
 .places__where-go {
     font-size: 34px;
+    font-weight: 700;
+    letter-spacing: 1.02px;
+    line-height: 40.8px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
 
+
+
+
+
+
+
+
+.places__content{
+    margin-top: 45px;
 }
 
 .city__hotel-info img {
@@ -27,5 +51,5 @@
 }
 
 .places__cities__city img {
-    width: 400px;
+    width: 100%;
 }
