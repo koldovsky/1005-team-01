@@ -10,12 +10,24 @@
 :root {
     --header-text-colour: #fff;
     --ui-dark-accent-color: #505155;                                /*Text color*/
+    --ui-dark-accent-color: #505155;
+    --ui-dark-shade-color: #232428;
+    --ui-text-color-light: #fff;
+    --ui-block-title-color-light: #fff;
+    --spots-text-color: rgba(255,255,255,0.6);
     --main-title: rgba(255,255,255,0.6);
     --main-title_without_picture: #6f7380;                          /*For title without picture in background*/
     --divider: rgb(238,46,20);
     --tour-icons: #14a9ee;
+    --ui-caption-color-light: #a9a9a9;
     font-family: 'Roboto', sans-serif;
     scroll-behavior: smooth;
+}
+
+body {
+    display: block;
+    min-width: 320px;                                                   /*It taken from original web site*/
+    /*border: 1px solid purple;*/                                         /*just for testing :) */
 }
 
 img {
@@ -23,3 +35,6 @@ img {
     width: 100%;
 }
 
+.container {
+    max-width: 1170px;
+}
