@@ -14,8 +14,8 @@
 }
 
 .tour-map {
-    min-width: 418px;
-    min-height: 445px;
+    max-width: 820px;
+    max-height: 1000px;
     object-position: 50% 50%;
 }
 
@@ -85,7 +85,7 @@
 }
 
 @media (min-width: 767px) {
-    .tour {
+    .tour .container {
         display: grid;
         grid-template-columns: 50% 50%;
     }
