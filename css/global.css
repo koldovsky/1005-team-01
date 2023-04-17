@@ -18,6 +18,7 @@
     --main-title_without_picture: #6f7380;                          /*For title without picture in background*/
     --divider: rgb(238,46,20);
     --tour-icons: #14a9ee;
+    --ui-caption-color-light: #a9a9a9;
     font-family: 'Roboto', sans-serif;
     scroll-behavior: smooth;
 }
