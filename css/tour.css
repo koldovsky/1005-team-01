@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,600;1,700&family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+
+.tour {
+    background-image: url(../img/tour-background.png);
+    padding-top: 90px;
+    padding-bottom: 90px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.tour__container-map {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.tour-map {
+    width: 272px;
+    height: 290.359px;
+    object-position: 50% 50%;
+}
+
+.tour__card {
+    padding-top: 31px;
+    padding-bottom: 31px;
+    padding-left: 27px;
+    padding-right: 27px;
+}
+
+.tour__card-title {
+    font-size: 12px;
+    font-weight: 500;
+    text-align: left;
+    color: var(--main-title);
+}
+
+.divider {
+    color: var(--divider);
+}
+
+.tour__card-subtitle {
+    font-size: 34px;
+    font-weight: 700;
+    text-align: left;
+    color: var(--header-text-colour);
+}
+
+.tour__card-text {
+    font-size: 17px;
+    font-weight: 400;
+    text-align: left;
+    letter-spacing: 0.51px;
+    line-height: 28.9px;
+    vertical-align: baseline;
+    color: var(--main-title);
+}
+
+.tour__card-subtitle-tromso {
+    color: var(--ui-dark-accent-color);
+}
+
+.tour__container-icon {
+    border-radius: 50%;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+.tour__icon {
+    height: 26px;
+    color: var(--tour-icons);
+}
