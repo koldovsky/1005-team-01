@@ -1,6 +1,6 @@
 .contact-form__background-image {
   background-attachment: fixed;
-  max-width: none;
+  
   min-width: 320px;
   min-height: 100vh;
   /* position: relative; */
