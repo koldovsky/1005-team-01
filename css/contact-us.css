@@ -3,8 +3,10 @@
   max-width: none;
   min-width: 320px;
   min-height: 100vh;
-  position: relative;
+  /* position: relative; */
   text-align: center;
+  align-items: center;
+  justify-content: center;
   background-position: 100%;
   background-image: url(../img/join_us_background.png);
   background-size: cover;
@@ -46,15 +48,20 @@
 
 
 .contact-form__border {
-  display: flex;
+  display: block;
   justify-content: center;
-  margin-left: 367px;
-  margin-top: 135px;
+  /* left: 17%;
+  top: 135px; */
+  margin-top: 130px;
+  margin-bottom: 130px;
+  /* margin-left: -16%;  */
+  /* position: relative; */
   padding-top: 130px;
   padding-bottom: 130px;
   width: 570px;
   height: 699px;
   padding: 0;
+  /* margin: auto; */
   background-color: rgb(35, 36, 40);
   background-size: auto;
 }
@@ -115,6 +122,7 @@
 .contact-form__accept-button {
   background-color: rgb(20, 169, 238);
   margin-top: 3%;
+  position: relative;
   display: inline-block;
   width: 450px;
   height: 42px;
@@ -256,7 +264,9 @@ input:focus {
 
 @media (max-width: 800px) {
   .contact-form__border {
-    /* top: 130px; */
+    top: 130px;
+    /* position: relative; */
+
     display: block;
     width: 70%;
   }
