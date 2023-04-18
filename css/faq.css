@@ -8,15 +8,26 @@
 }
 
 .faq__title-pretitle {
+    font-size: 12px;
     color: var(--spots-text-color);
 }
 .faq__title-major {
-    color: var(--ui-block-title-color-light)
+    font-size: 34px;
+    color: var(--ui-block-title-color-light);
 }
 
-.shadowpart {
-    color: var(--spots-text-color) !important;
+.faq__titlepart {
+    color: var(--spots-text-color);
 }
 
+.faq__title-text {
+    display: inline-block;
+    color: var(--spots-text-color);
+    text-align: left;
+}
+
+.faq__acordion {
+    color: var(--ui-block-title-color-light);
+}
 
 
