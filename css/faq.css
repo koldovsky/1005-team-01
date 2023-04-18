@@ -1,0 +1,22 @@
+
+.faq {
+    background-color: var(--ui-dark-shade-color);
+    background-size: cover;
+    padding-left: 25px;
+    padding-right: 25px;
+    
+}
+
+.faq__title-pretitle {
+    color: var(--spots-text-color);
+}
+.faq__title-major {
+    color: var(--ui-block-title-color-light)
+}
+
+.shadowpart {
+    color: var(--spots-text-color) !important;
+}
+
+
+
