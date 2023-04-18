@@ -16,7 +16,7 @@
 
 .header__logo-container {
     justify-content: flex-start;
-    min-width: 188px;
+    width: 188px;
     height: 34px;
 }
 
@@ -35,19 +35,18 @@
 
 }
 
-.burger__menu {
-    display: block;
+.burger__button {
     position: relative;
-    background-color: rgba(117, 190, 218, 0.0) !important;
-    width: 24px;
-    height: 16px;
-    padding: 6.5px;
     cursor: pointer;
-    z-index: 5;
+    background-color: rgba(117, 190, 218, 0.0) !important;
 }
 
-    
-    
+.navbar .navbar-toggler .navbar-toggler-icon {
+    cursor: pointer;
+    background-image: url('https://mdbootstrap.com/img/svg/hamburger7.svg?color=FFFFFF');
+    width: 24px;
+    height: 16px;
+}
 
 .header__menu-item {
     font-size: 14px;
@@ -55,8 +54,6 @@
     text-align: left;
     text-decoration: none;
     color: var(--header-text-colour);
-    margin-right: 0px;
-
 }
 
 .header__button {
