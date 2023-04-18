@@ -45,6 +45,10 @@
     margin-top: 45px;
 }
 
+.places__links{
+    border-bottom: 1px solid var(--places-text-menu-color);
+}
+
 .city__hotel-info img {
     width: 20px;
     height: 24px;
@@ -72,6 +76,15 @@
 .tab-content {
     padding-top: 30px;
 }
+
+.nav-item {
+    display: block;
+}
+
+
+
+
+
 /*
 .tab-content {
     padding: 20px;
