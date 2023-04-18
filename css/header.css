@@ -48,6 +48,10 @@
     height: 16px;
 }
 
+.navbar-toggler {
+    border: none;
+}
+
 .header__menu-item {
     font-size: 14px;
     font-weight: 600;
@@ -146,6 +150,14 @@
 
 }
 
+
+@media (min-width: 1000px) {
+        .header__title {
+        font-size: 180px;
+    }
+}
+
+
 .header__card-title {
     font-size: 17px;
     font-weight: 700;
@@ -212,7 +224,7 @@
     .header__video {
         justify-self: start;
         align-self: flex-end;
-
+       
     }
 
     .header__card {
