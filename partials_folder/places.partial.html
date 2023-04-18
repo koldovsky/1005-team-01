@@ -1,25 +1,25 @@
 <section class="places">
     <div class="places__inner" id="places">
         <div class="pleces__header">
-            <h3 class="places__title"><span class="divider">━</span> Places</h3>
+            <h3 class="places__title"><span class="divider">━</span> PLACES</h3>
             <!--tags <h?> and DIVIDER is the same in all pape, so I think we should use the same class-->
-            <p class="places__where-go">Where do we go</p>
+            <p class="places__where-go">Where do we go?</p>
             <p class="places__trip-info">10 days of travel and unique places in Norvay are
                 waiting for us. Read more about each place from our itinerary</p>
         </div>
 
         <div class="places__content">
-            <div class="places__links">                                                                     <!--Block with links to cities-->
-                <ul class="places__links__links-to-places link-to-places">
-                    <li class="link-to-places__place"><a href="#oslo">Oslo</a></li>
-                    <li class="link-to-places__place"><a href="#trondheim">Trondheim</a></li>
-                    <li class="link-to-places__place"><a href="#bode">Bode</a></li>
-                    <li class="link-to-places__place"><a href="#lofoten-islands">Lofoten Islands</a></li>
-                    <li class="link-to-places__place"><a href="#tromse">Tromse</a></li>
+            <div class="places__links">                                                                                                 <!--Block with links to cities-->
+                <ul class="nav nav-tabs">
+                    <li class="nav-item"><a class="nav-link active" href="#oslo"  data-bs-toggle="tab">Oslo</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#trondheim" data-bs-toggle="tab">Trondheim</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#bode" data-bs-toggle="tab">Bode</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#lofoten-islands" data-bs-toggle="tab">Lofoten Islands</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#tromse" data-bs-toggle="tab">Tromse</a></li>
                 </ul>
             </div>
-            <div class="places__cities">
-                <div class="places__cities__city city" id="oslo">                                           <!--Oslo block-->
+            <div class="tab-content">
+                <div class="tab-pane active" id="oslo" role="tabpanel">                                                       <!--Oslo block-->
                     <p class="city__name">Oslo</p>
                     <img src="img/places-block/oslo.jpeg" alt="Oslo" width="200">
                     <p class="city__point">Oslo - First point</p>
@@ -42,7 +42,7 @@
                         <a class="city__button-book" href="#">Book now -></a>
                     </div>
                 </div>
-                <div class="places__cities__city city" id="trondheim"> <!--Trondheim block-->
+                <div class="tab-pane" id="trondheim" role="tabpanel">                                                              <!--Trondheim block-->
                     <p class="city__name">Trondheim</p>
                     <img src="img/places-block/trondheim.jpeg" alt="Trondheim" width="200">
                     <p class="city__point">Trondheim - Second point</p>
@@ -64,7 +64,7 @@
                         <a class="city__button-book" href="#">Book now -></a>
                     </div>
                 </div>
-                <div class="places__cities__city city" id="bode"> <!--Bode block-->
+                <div class="tab-pane" id="bode" role="tabpanel">                                                                       <!--Bode block-->
                     <p class="city__name">Bode</p>
                     <img src="img/places-block/bode.jpeg" alt="Bode" width="200">
                     <p class="city__point">Bode - Third point</p>
@@ -86,7 +86,7 @@
                         <a class="city__button-book" href="#">Book now -></a>
                     </div>
                 </div>
-                <div class="places__cities__city city" id="lofoten-islands"> <!--Lofoten Islands block-->
+                <div class="tab-pane" id="lofoten-islands" role="tabpanel">                                                            <!--Lofoten Islands block-->
                     <p class="city__name">Lofoten Islands</p>
                     <img src="img/places-block/lofoten-iIslands.jpeg" alt="Lofoten Islands" width="200">
                     <p class="city__point">Lofoten Islands - Fourth point</p>
@@ -108,7 +108,7 @@
                         <a class="city__button-book" href="#">Book now -></a>
                     </div>
                 </div>
-                <div class="places__cities__city city" id="tromse"> <!--Tromse block-->
+                <div class="tab-pane" id="tromse"  role="tabpanel">                                                                    <!--Tromse block-->
                     <p class="city__name">Tromse</p>
                     <img src="img/places-block/tromse.jpeg" alt="Tromse" width="200">
                     <p class="city__point">Tromse - Final point</p>

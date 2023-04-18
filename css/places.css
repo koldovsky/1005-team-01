@@ -1,24 +1,52 @@
 .places {
-    min-width: 320px;
-    max-width: 1200px;
+
     align-items: center;
-    padding: 60px 0px 130px;
+    padding: 60px 0px 90px;
+    color: var(--ui-dark-accent-color);
 }
 
-.divider {                                              
+.divider {
     color: var(--divider);
-    
+
+}
+
+.places__inner {
+    padding: 0px 24px 0px 24px;
+    border: 1px solid red;
+    /*just for testing:)*/
+}
+
+.pleces__header {
+    border: 1px solid green;
+    /*just for testing*/
 }
 
 .places__title {
-    font-size: 12px;    
+    font-size: 12px;
     color: var(--main-title_without_picture);
     width: 100%;
 }
 
 .places__where-go {
     font-size: 34px;
+    font-weight: 700;
+    letter-spacing: 1.02px;
+    line-height: 40.8px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
 
+
+
+
+
+
+.places__content {
+    margin-top: 45px;
+}
+
+.places__links{
+    border-bottom: 1px solid var(--places-text-menu-color);
 }
 
 .city__hotel-info img {
@@ -27,5 +55,48 @@
 }
 
 .places__cities__city img {
-    width: 400px;
+    width: 100%;
 }
+
+/*Bootstrap style block*/
+
+.nav-tabs {
+    border-bottom: none;
+}
+
+.nav-link {
+    color: #007bff;
+}
+
+.nav-link.active {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.tab-content {
+    padding-top: 30px;
+}
+
+.nav-item {
+    display: block;
+}
+
+
+
+
+
+/*
+.tab-content {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-top: none;
+}
+
+.tab-pane {
+    margin-top: 20px;
+}
+
+.fade:not(.show) {
+    opacity: 0;
+    transition: opacity 0.15s linear;
+}*/
