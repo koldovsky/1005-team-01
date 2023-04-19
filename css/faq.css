@@ -1,9 +1,7 @@
 .faq {
     background-color: var(--ui-dark-shade-color);
     background-size: cover;
-    padding-left: 25px;
-    padding-right: 25px;
-
+    padding: 25px 25px;
 }
 
 .faq__title-pretitle {
@@ -14,6 +12,8 @@
 .faq__title-major {
     font-size: 34px;
     color: var(--ui-block-title-color-light);
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 
 .faq__titlepart {
@@ -23,9 +23,42 @@
 .faq__title-text {
     display: inline-block;
     color: var(--spots-text-color);
+    padding-top: 25px;
+    font-size: 19px;
 }
 
 .faq__acordion {
     color: var(--ui-block-title-color-light);
 }
 
+.faq__text-container {
+    padding: 25px 25px;
+}
+
+.faq__img-container {
+    padding: 25px;
+}
+
+
+.acordion__part-major {
+    color: var(--ui-text-color-light);
+}
+
+.acordion__part-minor {
+    color: var(--spots-text-color);
+}
+
+@media (min-width: 780px) {
+    .faq {
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+    
+    .faq__text-container {
+        grid-column-start: 1
+    }
+
+    .faq__img-container {
+        grid-column-start: 2;
+    }
+}
