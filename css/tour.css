@@ -19,14 +19,14 @@
     object-position: 50% 50%;
 }
 
-.tour__card {
+.tour__info {
     padding-top: 31px;
     padding-bottom: 31px;
     padding-left: 27px;
     padding-right: 27px;
 }
 
-.tour__card-title {
+.tour__info-title {
     font-size: 12px;
     font-weight: 500;
     text-align: left;
@@ -37,14 +37,14 @@
     color: var(--divider);
 }
 
-.tour__card-subtitle {
+.tour__info-subtitle {
     font-size: 34px;
     font-weight: 700;
     text-align: left;
     color: var(--header-text-colour);
 }
 
-.tour__card-text {
+.tour__info-text {
     font-size: 17px;
     font-weight: 400;
     text-align: left;
@@ -54,32 +54,28 @@
     color: var(--main-title);
 }
 
-.tour__card-subtitle-tromso {
+.tour__info-subtitle-tromso {
     color: var(--ui-dark-accent-color);
 }
 
-.tour__container-icon {
+.tour__icon-container {
     border-radius: 50%;
     position: relative;
-    align-items: center;
+    display: flex;
     justify-content: center;
+    align-items: flex-start;
+    margin: 7.5px;
 }
 
-.tour__icon {
-    
-    color: var(--tour-icons);
-    width: 40px;
-    height: 40px;
-}
 
-.tour__info-title {
+.tour__card-title {
     font-size: 18px;
     font-weight: 700;
     text-align: left;
     color: var(--header-text-colour);
 }
 
-.tour__info-text {
+.tour__card-text {
     font-size: 14px;
     font-weight: 400;
     text-align: left;
@@ -93,11 +89,30 @@
     }
 }
 
-.tour__card-info {
+.tour__card {
     display: flex;
-    
-}
-.tour__container-icon {
-    padding: 12px;
 }
 
+
+.tour__icon-background {
+    padding: 12px;
+    background-color: var(--background-icon-color);
+    border-radius: 50% 50%;
+}
+
+.tour__icon {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    color: var(--tour-icons);
+    width: 26px;
+    height: 26px;
+}
+
+.tour__card-container {
+    margin: 7.5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
