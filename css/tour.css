@@ -66,8 +66,10 @@
 }
 
 .tour__icon {
-    height: 26px;
+    
     color: var(--tour-icons);
+    width: 40px;
+    height: 40px;
 }
 
 .tour__info-title {
@@ -90,3 +92,12 @@
         grid-template-columns: 50% 50%;
     }
 }
+
+.tour__card-info {
+    display: flex;
+    
+}
+.tour__container-icon {
+    padding: 12px;
+}
+
