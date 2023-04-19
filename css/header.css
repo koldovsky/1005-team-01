@@ -1,5 +1,5 @@
 .header {
-    background-image: url(../img/header_backgr.jpg);
+    background-image: url(../img/header_background.jpg);
     background-size: cover;
     background-position: center;
     padding: 20px;
@@ -55,7 +55,7 @@
 .header__menu-item {
     font-size: 14px;
     font-weight: 600;
-    text-align: left;
+    /* text-align: left; */
     text-decoration: none;
     color: var(--header-text-colour);
 }
@@ -94,7 +94,7 @@
     color: var(--header-text-colour);
     font-size: 12px;
     font-weight: 700;
-    text-align: left;
+    /* text-align: left; */
 
 }
 
@@ -109,7 +109,7 @@
 .header__banner-text {
     font-weight: bold;
     font-size: 12px;
-    text-align: left;
+    /* text-align: left; */
 
 }
 
@@ -121,7 +121,7 @@
     font-family: 'Playfair Display', serif;
     font-size: 70px;
     font-weight: 600;
-    text-align: left;
+    /* text-align: left; */
 }
 
 
@@ -161,14 +161,14 @@
 .header__card-title {
     font-size: 17px;
     font-weight: 700;
-    text-align: left;
+    /* text-align: left; */
     padding-top: 30px;
 }
 
 .header__card-item {
     font-size: 17px;
     font-weight: 500;
-    text-align: left;
+    /* text-align: left; */
     padding-top: 10px;
 }
 
@@ -176,7 +176,7 @@
     color: rgba(255, 255, 255, 0.75);
     font-size: 17px;
     font-weight: 500;
-    text-align: left;
+    /* text-align: left; */
     padding-top: 10px;
 }
 
