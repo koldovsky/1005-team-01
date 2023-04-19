@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,600;1,700&family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+
+.tour {
+    background-image: url(../img/tour-background.png);
+    padding-top: 90px;
+    padding-bottom: 90px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.tour__container-map {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.tour-map {
+    max-width: 820px;
+    max-height: 1000px;
+    object-position: 50% 50%;
+}
+
+.tour__info {
+    padding-top: 31px;
+    padding-bottom: 31px;
+    padding-left: 27px;
+    padding-right: 27px;
+}
+
+.tour__info-title {
+    font-size: 12px;
+    font-weight: 500;
+    text-align: left;
+    color: var(--main-title);
+}
+
+.divider {
+    color: var(--divider);
+}
+
+.tour__info-subtitle {
+    font-size: 34px;
+    font-weight: 700;
+    text-align: left;
+    color: var(--header-text-colour);
+}
+
+.tour__info-text {
+    font-size: 17px;
+    font-weight: 400;
+    text-align: left;
+    letter-spacing: 0.51px;
+    line-height: 28.9px;
+    vertical-align: baseline;
+    color: var(--main-title);
+}
+
+.tour__info-subtitle-tromso {
+    color: var(--ui-dark-accent-color);
+}
+
+.tour__icon-container {
+    border-radius: 50%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 7.5px;
+}
+
+
+.tour__card-title {
+    font-size: 18px;
+    font-weight: 700;
+    text-align: left;
+    color: var(--header-text-colour);
+}
+
+.tour__card-text {
+    font-size: 14px;
+    font-weight: 400;
+    text-align: left;
+    color: var(--ui-caption-color-light);
+}
+
+@media (min-width: 767px) {
+    .tour .container {
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+}
+
+.tour__card {
+    display: flex;
+}
+
+
+.tour__icon-background {
+    padding: 12px;
+    background-color: var(--background-icon-color);
+    border-radius: 50% 50%;
+}
+
+.tour__icon {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    color: var(--tour-icons);
+    width: 26px;
+    height: 26px;
+}
+
+.tour__card-container {
+    margin: 7.5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
