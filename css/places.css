@@ -1,5 +1,4 @@
 .places {
-
     align-items: center;
     padding: 60px 0px 90px;
     color: var(--ui-dark-accent-color);
@@ -7,19 +6,12 @@
 
 .divider {
     color: var(--divider);
-
 }
 
 .places__inner {
     padding: 0px 24px 0px 24px;
-    /*border: 1px solid red;
-    */
 }
-/*
-.pleces__header {
-    border: 1px solid green;
-}
-*/
+
 .places__title {
     font-size: 12px;
     color: var(--main-title_without_picture);
@@ -35,27 +27,6 @@
     margin-bottom: 25px;
 }
 
-
-
-
-
-
-.places__content {
-    margin-top: 45px;
-}
-
-.places__content .city-photo {
-    min-width: 272px;
-}
-
-.city__hotel-info img {
-    width: 20px;
-    height: 24px;
-}
-
-.places__cities__city img {
-    width: 100%;
-}
 
 /*Bootstrap style block*/
 
@@ -75,7 +46,7 @@
 }
 
 .places__content .nav-item .active {
-    border-bottom: 3px solid var(--divider);                                                       /*only in active link in navigation panel */
+    border-bottom: 3px solid var(--divider);                                            /*only in active link in navigation panel */
 }
 
 .places__content .nav-tabs::-webkit-scrollbar-thumb {
@@ -103,7 +74,24 @@
 
 
 
+/*Tab-content block*/
 
+.places__content {
+    margin-top: 45px;
+}
+
+.places__content .city-photo {
+    min-width: 272px;
+}
+
+.city__hotel-info img {
+    width: 20px;
+    height: 24px;
+}
+
+.places__cities__city img {
+    width: 100%;
+}
 
 .tab-pane .city {
     padding: 39px 43px;
@@ -138,15 +126,57 @@
     line-height: 22.4px;
 }
 
-.city__info {
+.city__hotel-info {
     font-size: 17px;
     font-weight: 400;
     letter-spacing: 0.51px;
     line-height: 28.9px;
 }
 
+.city__hotel-info{
+    margin-top: 20px;
+    word-wrap: break-word;
+}
+
+.city__hotel-info_item{
+    display: flex;
+}
+
 .city__hotel-info img {
     height: 24px;
     width: 20px;
     line-height: 28.9px;
+    margin-right: 10px;
+}
+
+a.city__button-book {
+    display: inline-block;
+    margin-top: 55px 10px 10px 10px;
+    padding: 14px 20px 14px 20px;
+    background-color: var(--color-book-now-button);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+    color: var(--ui-text-color-light);
+    text-decoration: none;
+}
+
+a.city__button-book:hover {
+    background-color: var(--ui-dark-shade-color);
+}
+
+
+
+@media screen and (min-width: 768px){
+    .city-photo, .city {
+        display: inline-block;
+        vertical-align: top;
+        width: 45%;
+        box-sizing: border-box;
+    }
+
+    .tab-content{
+        width: 100%;
+        margin: 0 auto;
+    }
 }
