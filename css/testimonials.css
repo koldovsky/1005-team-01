@@ -137,10 +137,10 @@
 .test__alice-hand__photo,
 .test__cole-tiers__photo {
     display: flex;
-    flex-shrink: 0;
     border-style: hidden;
     height: 120px;
     width: 120px;
+    max-width: 120px;
     border-image-width: 1;
     text-align: center;
     border-radius: 50%;
