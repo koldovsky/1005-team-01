@@ -130,7 +130,9 @@
 }
 
 .test__carousel-caption-css {
+    display: flex;
     margin-top: 20px;
+    text-align: center;
 }
 
 /*.test__lili-forest__photo,
@@ -150,4 +152,6 @@
 */
 .carousel-indicators button {
     border-radius: 50%;
+    height: 30px;
+    width: 30px;
   }
