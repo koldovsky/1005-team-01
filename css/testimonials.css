@@ -150,8 +150,25 @@
     margin-top: 60px;
 }
 */
-.carousel-indicators button {
-    border-radius: 50%;
-    height: 30px;
-    width: 30px;
-  }
+
+  /* Center everything */
+.carousel-inner,
+.carousel-item,
+.carousel-item img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/* Adjust position of top text */
+.test__exp__toptext {
+  margin-top: 30px;
+}
+
+/* Adjust position of carousel indicators */
+.carousel-indicators {
+  margin-top: 30px;
+  height: 10px;
+  width: 10px;
+}
