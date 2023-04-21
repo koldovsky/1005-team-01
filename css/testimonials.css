@@ -57,7 +57,7 @@
     align-items: center;
 }
 
-.test__alice-hand,
+/*.test__alice-hand,
 .test__lili-forest,
 .test__cole-tiers {
     display: flex;
@@ -68,7 +68,7 @@
     height: auto;
     margin-top: 50px;
 }
-/*
+
 .test__lili-forest__photo,
 .test__alice-hand__photo,
 .test__cole-tiers__photo {
@@ -81,7 +81,7 @@
     text-align: center;
     border-radius: 50%;
 }
-*/
+
 .test__alice-hand__name,
 .test__lili-forest__name,
 .test__cole-tiers__name {
@@ -135,7 +135,7 @@
     text-align: center;
 }
 
-/*.test__lili-forest__photo,
+.test__lili-forest__photo,
 .test__alice-hand__photo,
 .test__cole-tiers__photo {
     display: flex;
@@ -151,24 +151,3 @@
 }
 */
 
-  /* Center everything */
-.carousel-inner,
-.carousel-item,
-.carousel-item img {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-/* Adjust position of top text */
-.test__exp__toptext {
-  margin-top: 30px;
-}
-
-/* Adjust position of carousel indicators */
-.carousel-indicators {
-  margin-top: 30px;
-  height: 10px;
-  width: 10px;
-}
