@@ -151,3 +151,7 @@
 }
 */
 
+.carousel-indicators__css {
+    display: flex;
+    margin-top: 2rem;
+}
