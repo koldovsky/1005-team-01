@@ -154,4 +154,6 @@
 .carousel-indicators__css {
     display: flex;
     margin-top: 2rem;
+    border-bottom: 0px;
+    max-height: 8px;
 }
