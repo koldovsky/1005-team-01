@@ -56,6 +56,9 @@
     display: flex;
     align-items: center;
 }
+.carousel-indicators {
+    position: static;
+    margin-top: 10px; 
 
 /*.test__alice-hand,
 .test__lili-forest,
@@ -149,7 +152,7 @@
     border-radius: 50%;
     margin-top: 60px;
 }
-*/
+
 
 .carousel-indicators__css {
     display: flex;
@@ -157,3 +160,4 @@
     border-bottom: 0px;
     max-height: 8px;
 }
+*/
