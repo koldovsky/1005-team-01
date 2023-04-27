@@ -161,14 +161,15 @@
 .header__card-title {
     font-size: 17px;
     font-weight: 700;
-    /* text-align: left; */
     padding-top: 30px;
+    
+    
 }
 
 .header__card-item {
     font-size: 17px;
     font-weight: 500;
-    /* text-align: left; */
+    
     padding-top: 10px;
 }
 
@@ -176,7 +177,7 @@
     color: rgba(255, 255, 255, 0.75);
     font-size: 17px;
     font-weight: 500;
-    /* text-align: left; */
+    
     padding-top: 10px;
 }
 
