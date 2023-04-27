@@ -49,6 +49,26 @@
 
 .navbar-toggler {
     border: none;
+    position: absolute;
+    top: 15px;
+    right: 110px;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.navbar-collapse {
+    background-color: #505155;
+    /* position: fixed; */
+    top: 0;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+
 }
 
 .header__menu-item {
@@ -146,12 +166,15 @@
     .header__title {
         font-size: 125px;
     }
+    .navbar-collapse {
+        background-color: rgba(117, 190, 218, 0.0);
+    }
 
 }
 
 
 @media (min-width: 1000px) {
-        .header__title {
+    .header__title {
         font-size: 180px;
     }
 }
@@ -161,14 +184,14 @@
     font-size: 17px;
     font-weight: 700;
     padding-top: 30px;
-    
-    
+
+
 }
 
 .header__card-item {
     font-size: 17px;
     font-weight: 500;
-    
+
     padding-top: 10px;
 }
 
@@ -176,7 +199,7 @@
     color: rgba(255, 255, 255, 0.75);
     font-size: 17px;
     font-weight: 500;
-    
+
     padding-top: 10px;
 }
 
@@ -224,11 +247,20 @@
     .header__video {
         justify-self: start;
         align-self: flex-end;
-       
+
     }
 
     .header__card {
         justify-self: start;
         align-self: flex-end;
     }
+}
+
+.header__clock {
+    color: var(--header-text-colour);
+    display: block;
+    font-weight: bold;
+    font-size: 16px;
+    width: 12px;
+    height: 10px;
 }
