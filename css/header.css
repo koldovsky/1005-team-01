@@ -5,13 +5,6 @@
     padding: 20px;
 }
 
-.header_nav {
-    display: flex;
-    flex-direction: row;
-    max-width: 1170px;
-    padding-left: 24px;
-    padding-right: 24px;
-}
 
 .header__logo-container {
     justify-content: flex-start;
@@ -40,16 +33,18 @@
     background-color: rgba(117, 190, 218, 0.0) !important;
 }
 
-.navbar .navbar-toggler .navbar-toggler-icon {
+ .navbar-toggler-icon {
     cursor: pointer;
     background-image: url('https://mdbootstrap.com/img/svg/hamburger7.svg?color=FFFFFF');
     width: 24px;
     height: 16px;
+    
 }
+
 
 .navbar-toggler {
     border: none;
-    position: absolute;
+    position: fixed;
     top: 15px;
     right: 110px;
 }
@@ -162,14 +157,9 @@
         align-content: flex-end;
 
     }
-
     .header__title {
         font-size: 125px;
     }
-    .navbar-collapse {
-        background-color: rgba(117, 190, 218, 0.0);
-    }
-
 }
 
 
@@ -177,7 +167,11 @@
     .header__title {
         font-size: 180px;
     }
+     .navbar-collapse {
+        background-color: rgba(117, 190, 218, 0.0);
+    }
 }
+
 
 
 .header__card-title {
