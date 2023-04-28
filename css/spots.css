@@ -6,10 +6,6 @@
     padding-right: 25px;
 }
 
-.spots__title {
-    
-}
-
 .spots__title-main {
     font-size: 12px;
     font-weight: 500;
@@ -36,6 +32,17 @@
     color: var(--spots-text-color);
     font-size: 17px;
     font-weight: 400;
+}
+
+.spots__carousel .carousel .carousel__slide {
+    white-space: nowrap;
+    display: flex;
+}
+
+.carousel__slide-icon {
+    height: 315px;
+    width: 352px;
+    object-fit: cover;
 }
 
 .quote {
