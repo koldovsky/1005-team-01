@@ -10,6 +10,7 @@
     justify-content: flex-start;
     width: 188px;
     height: 34px;
+    z-index: 10;
 }
 
 .header__menu {
@@ -21,7 +22,7 @@
     vertical-align: baseline;
     width: 100%;
     align-items: center;
-    padding-left: 250px;
+    padding-left: 150px;
     padding-right: 5px;
     flex: 0.75;
 
@@ -38,13 +39,22 @@
     background-image: url('https://mdbootstrap.com/img/svg/hamburger7.svg?color=FFFFFF');
     width: 24px;
     height: 16px;
+    position: fixed;
+    z-index: 5;
     
+}
+
+.navbar-nav {
+    padding-bottom: 400px;
+    position: absolute;
+    justify-content: center;
+    text-align: center;
+    padding-right: 80px;
 }
 
 
 .navbar-toggler {
     border: none;
-    position: fixed;
     top: 15px;
     right: 110px;
 }
@@ -54,8 +64,8 @@
 }
 
 .navbar-collapse {
-    background-color: #505155;
-    /* position: fixed; */
+    background-color: #232428;
+    position: fixed;
     top: 0;
     left: 0;
     bottom: 0;
@@ -69,7 +79,6 @@
 .header__menu-item {
     font-size: 14px;
     font-weight: 600;
-    /* text-align: left; */
     text-decoration: none;
     color: var(--header-text-colour);
 }
@@ -108,7 +117,7 @@
     color: var(--header-text-colour);
     font-size: 12px;
     font-weight: 700;
-    /* text-align: left; */
+    
 
 }
 
@@ -123,7 +132,7 @@
 .header__banner-text {
     font-weight: bold;
     font-size: 12px;
-    /* text-align: left; */
+    
 
 }
 
@@ -135,7 +144,7 @@
     font-family: 'Playfair Display', serif;
     font-size: 70px;
     font-weight: 600;
-    /* text-align: left; */
+    
 }
 
 
@@ -250,11 +259,16 @@
     }
 }
 
-.header__clock {
+
+   .header__clock {
     color: var(--header-text-colour);
     display: block;
+    position: relative;
     font-weight: bold;
     font-size: 16px;
     width: 12px;
     height: 10px;
-}
+    z-index: 5;
+    margin-bottom: 10px;
+    margin-left: 50px;
+   }
