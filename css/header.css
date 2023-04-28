@@ -6,7 +6,7 @@
 }
 
 .header__container {
-    max-width: 1200px;
+    max-width: 1170px;
     width: 100%;
     margin: auto;
     padding: 0 24px;
@@ -19,7 +19,7 @@
     flex-direction: row;
     align-items: center;
     padding: 30px 0px;
-    max-width: 1200px;
+    max-width: 1170px;
     margin-left: 30px;
 }
 
@@ -92,11 +92,11 @@
 
 .navigation-wrapper {
     position: fixed;
-    top: -100%;
+    /* top: -100%; */
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: var(--header-text-colour);
+    background-color: rgba(117, 190, 218, 0.0);
     z-index: 2;
     transition: top 0.5s ease-in;
     padding: 15px 24px 50px 24px;
@@ -179,11 +179,13 @@
 }
 
 .header__button {
-     box-sizing: border-box;
+    box-sizing: content-box;
     border-style: solid;
     border-width: thin;
-    width: 75px;
+
 }
+
+
 
 @media (max-width:995px) {
 
@@ -306,7 +308,7 @@
 
     .header__menu-link {
         color: var(--header-text-colour);
-                font-size: 1rem;
+        font-size: 1rem;
     }
 
     .header__menu-link:hover {
@@ -316,94 +318,6 @@
 
 }
 
-
-
-
-
-
-/* .header__logo-container {
-    justify-content: flex-start;
-    width: 188px;
-    height: 34px;
-    z-index: 10;
-}
-
-.header__menu {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    overflow-wrap: break-word;
-    justify-content: space-between;
-    vertical-align: baseline;
-    width: 100%;
-    align-items: center;
-    padding-left: 150px;
-    padding-right: 5px;
-    flex: 0.75;
-
-}
-
-.burger__button {
-    position: relative;
-    cursor: pointer;
-    background-color: rgba(117, 190, 218, 0.0) !important;
-}
-
-.navbar-toggler-icon {
-    cursor: pointer;
-    background-image: url('https://mdbootstrap.com/img/svg/hamburger7.svg?color=FFFFFF');
-    width: 24px;
-    height: 16px;
-    position: fixed;
-    z-index: 5;
-
-}
-
-.navbar-toggler {
-    border: none;
-    top: 15px;
-    right: 110px;
-}
-
-.navbar-toggler:focus {
-    box-shadow: none;
-}
-
-.navbar-collapse {
-    background-color: #232428;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    z-index: 1;
-    padding-bottom: 400px;
-    text-align: center;
-    padding-right: 80px;
-
-}
-
-.header__menu-item {
-    font-size: 14px;
-    font-weight: 600;
-    text-decoration: none;
-    color: var(--header-text-colour);
-}
-
-.header__button {
- 
-    box-sizing: border-box;
-    border-style: solid;
-    border-width: thin;
-    
-    
-}
-
-.header__button:hover {
-    background-color: var(--header-text-colour);
-    color: black;
-} */
 
 .youtube__icon {
     display: flex;
@@ -578,6 +492,7 @@
     width: 12px;
     height: 10px;
     z-index: 5;
+    margin-top: 8px;
     margin-bottom: 10px;
     margin-left: 50px;
 }
