@@ -44,6 +44,7 @@
     background-size: cover;
     width: 100vw;
     min-height: 570px;
+    max-width: 1330px;
 }
 .picture-of-number{
     height: 90px;
