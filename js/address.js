@@ -1,12 +1,12 @@
 let prevValue = 10069.853515625;
-let addressMarginBottom = 200;
+let addressMarginBottom = 300;
 const address = document.querySelector(".mounting__container");
 const marginBottomPlusPx = (scrVelue) => {
-    address.style.marginBottom = (addressMarginBottom += 3) + "px";  
+    address.style.marginBottom = (addressMarginBottom += 2) + "px";  
     prevValue = scrVelue;
 }
 const marginBottomMinusPx = (scrVelue) => {
-    address.style.marginBottom = ( addressMarginBottom -= 3) + "px";
+    address.style.marginBottom = ( addressMarginBottom -= 2) + "px";
     prevValue = scrVelue;
 }
 
