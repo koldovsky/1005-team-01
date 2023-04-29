@@ -3,4 +3,5 @@ document.addEventListener("partialsLoaded", () => {
     import('./header-clock.js');
     import('./burger-menu.js');
     import('./tour.js');
+    import('./address.js');
 });

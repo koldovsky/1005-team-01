@@ -9,6 +9,7 @@
 }
 
 :root {
+    --footer-background : black;
     --main-background-color: white;
     --header-text-colour: #fff;
     --ui-dark-accent-color: #505155;                                        /*Text color*/
