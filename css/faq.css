@@ -2,6 +2,33 @@
     background-color: var(--ui-dark-shade-color);
     background-size: cover;
     padding: 25px 25px;
+    display: block;
+}
+
+.faq_contaianer {
+    max-width: 1170;
+    display: flex;
+}
+
+.faq__text-container {
+    width: 50%;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: left;
+
+    padding: 25px 25px;
+}
+
+.faq__img-container {
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+}
+
+.faq__img-man-bag {
+    max-width: 820px;
+    max-height: 1000px;
+    object-position: 50% 50%;
 }
 
 .faq__title-pretitle {
@@ -21,7 +48,7 @@
 }
 
 .faq__title-text {
-    display: inline-block;
+    
     color: var(--spots-text-color);
     padding-top: 25px;
     font-size: 19px;
@@ -31,15 +58,6 @@
     color: var(--ui-block-title-color-light);
 }
 
-.faq__text-container {
-    padding: 25px 25px;
-}
-
-.faq__img-container {
-    padding: 25px;
-}
-
-
 .acordion__part-major {
     color: var(--ui-text-color-light);
 }
@@ -48,17 +66,10 @@
     color: var(--spots-text-color);
 }
 
-@media (min-width: 780px) {
-    .faq {
+@media (min-width: 767px) {
+    .faq .contaianer {
         display: grid;
         grid-template-columns: 50% 50%;
     }
     
-    .faq__text-container {
-        grid-column-start: 1
-    }
-
-    .faq__img-container {
-        grid-column-start: 2;
-    }
 }
