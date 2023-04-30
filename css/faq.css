@@ -8,27 +8,24 @@
 .faq_contaianer {
     max-width: 1170;
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .faq__text-container {
-    width: 50%;
-    justify-content: center;
-    align-items: flex-start;
     text-align: left;
-
+    position: relative;
     padding: 25px 25px;
 }
 
 .faq__img-container {
-    padding-left: 15px;
-    padding-right: 15px;
     position: relative;
+    padding: 5px 25px 5px 25px;
 }
 
 .faq__img-man-bag {
+    min-width: 260px;
     max-width: 820px;
-    max-height: 1000px;
-    object-position: 50% 50%;
 }
 
 .faq__title-pretitle {
@@ -48,7 +45,7 @@
 }
 
 .faq__title-text {
-    
+
     color: var(--spots-text-color);
     padding-top: 25px;
     font-size: 19px;
@@ -58,18 +55,60 @@
     color: var(--ui-block-title-color-light);
 }
 
-.acordion__part-major {
+.acordion .acordion__part-major {
     color: var(--ui-text-color-light);
+    position: relative;
+    padding: 10px 0;
+    cursor: pointer;
+    font-size: 17px;
 }
 
-.acordion__part-minor {
-    color: var(--spots-text-color);
-}
+
 
 @media (min-width: 767px) {
-    .faq .contaianer {
+    .faq .container {
         display: grid;
-        grid-template-columns: 50% 50%;
+        grid-template-columns: 1fr 1fr;
     }
-    
+}
+
+.acordion .acordion__part {
+    position: relative;
+    margin: 10px 10px;
+}
+
+.acordion__part-major::before {
+    content: "+";
+    color: var(--ui-text-color-light);
+    position: absolute;
+    top: 50%;
+    right: -5px;
+    font-size: 30px;
+    transform: translateY(-50%);
+}
+
+.acordion .acordion__part-minor {
+    content: "-";
+    position: relative;
+    height: 0;
+    color: var(--spots-text-color);
+    font-size: 14px;
+    text-align: justify;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.accordion hr {
+    width: 100%;
+    margin-left: 0;
+    border: 1px solid var(--faq-hr-color);
+}
+
+.acordion .acordion__part.active .content {
+    height: 150px;
+}
+
+.accordion .acordion__part.active .acordion__part-major::before {
+    content: '-';
+    font-size: 30px;
 }

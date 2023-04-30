@@ -26,6 +26,7 @@
     --tour-icons: #14a9ee;
     --ui-caption-color-light: #a9a9a9;
     --background-icon-color: rgba(255, 255, 255, 0.05);
+    --faq-hr-color: gray;
     font-family: 'Roboto', sans-serif;
     scroll-behavior: smooth;
 }
