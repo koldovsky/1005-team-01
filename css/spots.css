@@ -1,5 +1,65 @@
 .spots {
     background-color: var(--ui-dark-shade-color);
     padding-top: 90px;
-    padding-bottom: 60px;
+    padding-bottom: 90px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.spots__title-main {
+    font-size: 12px;
+    font-weight: 500;
+    text-align: left;
+    color: var(--spots-text-color);
+}
+
+.spots__title-subtitle {
+    color: var(--ui-block-title-color-light);
+    font-family: 'Playfair Display';
+    font-size: 34px;
+    font-weight: 700;
+}
+
+.spots__title-partsubtitle {
+    color: var(--ui-dark-accent-color);
+    font-family: 'Playfair Display';
+    font-size: 34px;
+    font-weight: 700;
+}
+
+.spots__title-text{
+    display: inline-block;
+    color: var(--spots-text-color);
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.spots__carousel .carousel .carousel__slide {
+    white-space: nowrap;
+    display: flex;
+}
+
+.carousel__slide-icon {
+    height: 315px;
+    width: 352px;
+    object-fit: cover;
+}
+
+.quote {
+    justify-content: center;
+    align-items: center;
+    max-width: 500px;
+}
+
+.quote__text-main {
+    font-family: 'Playfair Display';
+    color: var(--ui-block-title-color-light);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.quote__text-name {
+    color: var(--spots-text-color);
+    font-size: 17px;
+    font-weight: 400;
 }

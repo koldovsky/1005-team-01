@@ -5,9 +5,11 @@
     padding: 0;
     box-sizing: border-box;
     list-style: none;
+    /*outline: 1px solid red;*/                                                 /*just for testing*/  
 }
 
 :root {
+    --footer-background : black;
     --main-background-color: white;
     --header-text-colour: #fff;
     --ui-dark-accent-color: #505155;                                        /*Text color*/
@@ -23,14 +25,14 @@
     --divider: rgb(238,46,20);
     --tour-icons: #14a9ee;
     --ui-caption-color-light: #a9a9a9;
+    --background-icon-color: rgba(255, 255, 255, 0.05);
     font-family: 'Roboto', sans-serif;
     scroll-behavior: smooth;
 }
 
 body {
     display: block;
-    min-width: 320px;                                                   /*It taken from original web site*/
-    /*border: 1px solid purple;*/                                         /*just for testing :) */
+    min-width: 320px;                                                    
 }
 
 img {

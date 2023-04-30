@@ -3,7 +3,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    max-width: 970px;
     max-width: 1170px;
 }
 .about-us{
@@ -18,7 +17,7 @@
     font-size: 50px;
     color: #5f5f5f !important;
     font-family:'Times New Roman', Times, serif;
-    width: 440px;
+    width: 7em;
 }
 .offer__text{
     font-size: 24px;
@@ -26,6 +25,7 @@
     color: #414349;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin-left: 20px;
+    max-width: 390px;
 }
 .offer{
     padding-top: 55px;
@@ -39,15 +39,15 @@
     justify-content: space-around;
     padding: 0px 20px;
     padding-top: 40px;
-    background-image: url(img/background__about.jpg);
-    height: 490px;
+    background-image: url(../img/background__about.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-
+    width: 100vw;
+    min-height: 570px;
+    max-width: 1330px;
 }
 .picture-of-number{
-    height: 100px;
-
+    height: 90px;
 }
 .cards__style{
     display: flex;
@@ -55,6 +55,17 @@
     align-items: flex-start;
     padding: 10px;
     margin: 15px;
-    height: 240px;
+    height: 260px;
     background-color: white;
+    max-width: 240px;
+}
+@media (max-width: 700px){
+    .about-us{
+        flex-direction: column;
+        max-width: 460px;
+    }
+    .cards{
+        flex-direction: column;
+        align-items: center;
+    }
 }
