@@ -59,7 +59,7 @@
 .carousel-indicators {
     position: static;
     margin-top: 10px; 
-
+}
 /*.test__alice-hand,
 .test__lili-forest,
 .test__cole-tiers {
@@ -85,7 +85,7 @@
     border-radius: 50%;
 }
 
-.test__alice-hand__name,
+*/ .test__alice-hand__name,
 .test__lili-forest__name,
 .test__cole-tiers__name {
     font-family: "Roboto", sans-serif;
@@ -131,7 +131,7 @@
     position: relative;
     height: auto;
 }
-
+/*
 .test__carousel-caption-css {
     display: flex;
     margin-top: 20px;
