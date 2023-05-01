@@ -74,10 +74,10 @@
     }
 
     .header__menu-link:hover {
-            color: var(--ui-dark-shade-color);
+        color: var(--ui-dark-shade-color);
         font-size: 16px;
         transition: font-size .5s ease-in-out;
-        
+
     }
 
     .navigation-burger {
@@ -92,7 +92,7 @@
     border-width: thin;
     height: 52px;
     width: 126px;
-   
+
 }
 
 .header__button:hover {
@@ -103,7 +103,7 @@
     body.lock {
         overflow: hidden;
     }
-   
+
     .navigation-logo {
         position: relative;
         top: 0;
@@ -116,6 +116,7 @@
         padding: 30px 0;
         z-index: 10;
     }
+
     .navigation-burger {
         display: block;
         position: absolute;
@@ -127,6 +128,7 @@
         cursor: pointer;
         z-index: 5;
     }
+
     .navigation-burger span,
     .navigation-burger::before,
     .navigation-burger::after {
@@ -137,33 +139,42 @@
         background-color: var(--header-text-colour);
         transition: top 0.5s ease-in-out;
     }
+
     .navigation-burger span {
         transform: scale(1);
     }
+
     .navigation-burger::before,
     .navigation-burger::after {
         content: " ";
     }
+
     .navigation-burger::before {
         top: 0;
     }
+
     .navigation-burger::after {
         bottom: 0;
     }
+
     .navigation-burger.active span {
         transform: scale(0);
     }
+
     .navigation-burger.active::before {
         top: 50%;
         transform: rotate(-45deg);
     }
+
     .navigation-burger.active::after {
         bottom: 40%;
         transform: rotate(45deg);
     }
+
     .header__container {
         position: relative;
     }
+
     .navigation-wrapper {
         position: fixed;
         top: -100%;
@@ -178,12 +189,15 @@
         overflow: hidden;
         margin: auto;
     }
+
     .navigation-wrapper.active {
         top: 0;
     }
+
     .header__nav.active {
         top: 0;
     }
+
     .header__menu {
         position: relative;
         font-size: 0.92rem;
@@ -198,15 +212,17 @@
         padding-top: 100px;
         margin-bottom: 20px;
     }
+
     .header__menu-link {
         color: var(--header-text-colour);
         font-size: 14px;
     }
+
     .header__menu-link:hover {
         font-size: 16px;
         transition: font-size .4s ease-in;
     }
-} 
+}
 
 
 .youtube__icon {
@@ -367,4 +383,27 @@
     margin-top: 8px;
     margin-bottom: 10px;
     margin-left: 50px;
+}
+
+#phrase-container {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    z-index: 50;
+}
+
+#generate-btn {
+    width: 78px;
+    height: 35px;
+    color: var(--header-text-colour);
+    border-color: var(--header-text-colour);
+    background-color: rgba(117, 190, 218, 0.0);
+}
+
+#phrase {
+    font-size: 16px;
+    color: var(--header-text-colour);
+    text-align: center;
 }
