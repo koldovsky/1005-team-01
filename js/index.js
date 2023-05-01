@@ -5,4 +5,5 @@ document.addEventListener("partialsLoaded", () => {
     import('./tour.js');
     import('./address.js');
     import('./header-phrase.js');
+    import('./faq.js');
 });
