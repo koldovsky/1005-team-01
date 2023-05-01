@@ -1,4 +1,3 @@
-// Створення масиву крилатих фраз
 const phrases = [
     "“Jobs fill your pockets, adventures fill your soul.”",
     "“Remember that happiness is a way of travel, not a destination.”",
@@ -11,22 +10,15 @@ const phrases = [
     "“Twenty years from now you will be more disappointed by the things you didn’t do than by the ones you did do.” – Mark Twain"
   ];
   
-// Отримання елементів зі сторінки
 const phraseEl = document.getElementById("phrase");
 const generateBtn = document.getElementById("generate-btn");
 
-// Функція для генерації крилатої фрази
+
 function generatePhrase() {
-  // Вибір випадкової крилатої фрази з масиву
   const randomIndex = Math.floor(Math.random() * phrases.length);
   const phrase = phrases[randomIndex];
-  
-  // Оновлення тексту на сторінці
   phraseEl.innerText = phrase;
 }
 
-// Додавання обробника події на кнопку "Generate"
 generateBtn.addEventListener("click", generatePhrase);
-
-// Генерування першої крилатої фрази
 generatePhrase();
