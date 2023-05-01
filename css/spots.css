@@ -48,7 +48,18 @@
 .quote {
     justify-content: center;
     align-items: center;
+    text-align: center;
+    box-sizing: border-box;
     max-width: 500px;
+}
+
+.quote-svg {
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    height: 50px;
+    width: 50px;
+    margin: auto;
 }
 
 .quote__text-main {
@@ -56,6 +67,9 @@
     color: var(--ui-block-title-color-light);
     font-size: 16px;
     font-weight: 600;
+    position: relative;
+    max-width: 100%;
+    word-wrap: break-word;
 }
 
 .quote__text-name {
