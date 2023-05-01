@@ -80,9 +80,8 @@
 .acordion__part-major::before {
     content: "+";
     color: var(--ui-text-color-light);
-    position: absolute;
-    top: 50%;
-    right: -5px;
+    /* position:; */
+    padding: 0 20px;
     font-size: 30px;
     transform: translateY(-50%);
 }
@@ -95,7 +94,7 @@
     font-size: 14px;
     text-align: justify;
     overflow: hidden;
-    transition: 0.5s;
+    transition: 1s;
 }
 
 .accordion hr {
@@ -104,8 +103,8 @@
     border: 1px solid var(--faq-hr-color);
 }
 
-.acordion .acordion__part.active .content {
-    height: 150px;
+.acordion .acordion__part.active .acordion__part-minor {
+    height: auto;
 }
 
 .accordion .acordion__part.active .acordion__part-major::before {
