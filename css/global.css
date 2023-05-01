@@ -9,6 +9,7 @@
 }
 
 :root {
+    --footer-background : black;
     --main-background-color: white;
     --header-text-colour: #fff;
     --ui-dark-accent-color: #505155;                                        /*Text color*/
@@ -25,13 +26,14 @@
     --tour-icons: #14a9ee;
     --ui-caption-color-light: #a9a9a9;
     --background-icon-color: rgba(255, 255, 255, 0.05);
+    --faq-hr-color: gray;
     font-family: 'Roboto', sans-serif;
     scroll-behavior: smooth;
 }
 
 body {
     display: block;
-    min-width: 320px;                                                           /*It taken from original web site*/
+    min-width: 320px;                                                    
 }
 
 img {

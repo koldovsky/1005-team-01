@@ -6,10 +6,6 @@
     padding-right: 25px;
 }
 
-.spots__title {
-    
-}
-
 .spots__title-main {
     font-size: 12px;
     font-weight: 500;
@@ -38,10 +34,32 @@
     font-weight: 400;
 }
 
+.spots__carousel .carousel .carousel__slide {
+    white-space: nowrap;
+    display: flex;
+}
+
+.carousel__slide-icon {
+    height: 315px;
+    width: 352px;
+    object-fit: cover;
+}
+
 .quote {
     justify-content: center;
     align-items: center;
+    text-align: center;
+    box-sizing: border-box;
     max-width: 500px;
+}
+
+.quote-svg {
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    height: 50px;
+    width: 50px;
+    margin: auto;
 }
 
 .quote__text-main {
@@ -49,6 +67,9 @@
     color: var(--ui-block-title-color-light);
     font-size: 16px;
     font-weight: 600;
+    position: relative;
+    max-width: 100%;
+    word-wrap: break-word;
 }
 
 .quote__text-name {
