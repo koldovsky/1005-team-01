@@ -22,3 +22,4 @@ function generatePhrase() {
 
 generateBtn.addEventListener("click", generatePhrase);
 generatePhrase();
+
