@@ -4,5 +4,7 @@ document.addEventListener("partialsLoaded", () => {
     import('./burger-menu.js');
     import('./tour.js');
     import('./address.js');
+    import('./header-phrase.js');
     import('./faq.js');
+    import('./spots.js');
 });
