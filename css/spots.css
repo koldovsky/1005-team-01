@@ -6,6 +6,11 @@
     padding-right: 25px;
 }
 
+.spots__title {
+    min-width: 500px;
+    max-width: 800px;
+}
+
 .spots__title-main {
     font-size: 12px;
     font-weight: 500;
@@ -32,14 +37,16 @@
     color: var(--spots-text-color);
     font-size: 17px;
     font-weight: 400;
+    letter-spacing: 0.51px;
 }
-/*
+
 .carousel__inner-slide-icon {
     height: 315px;
     width: 352px;
     object-fit: cover;
+    margin: 10px;
 }
-*/
+
 
 .spots__carousel {
     display: flex;
@@ -70,7 +77,6 @@
     transform: rotate(180deg);
     padding: 5px;
     position: absolute;
-    top: 40%;
     left: 0;
     border-radius: 50%;
     width: 28px;
@@ -82,7 +88,6 @@
   
 .spots__carousel-next {
     position: absolute;
-    top: 40%;
     right: 0;
     border-radius: 50%;
     width: 28px;
@@ -91,6 +96,14 @@
     padding: 5px;
     background-color: rgb(179, 179, 179);
     cursor: pointer;
+}
+
+.spots__carousel-next:hover {
+    background-color: rgb(202, 202, 202);
+}
+  
+.spots__carousel-prev:hover {
+    background-color: rgb(202, 202, 202);
 }
 
 
