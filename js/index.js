@@ -6,4 +6,5 @@ document.addEventListener("partialsLoaded", () => {
     import('./address.js');
     import('./header-phrase.js');
     import('./faq.js');
+    import('./spots.js');
 });
