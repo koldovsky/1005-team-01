@@ -7,8 +7,9 @@
 }
 
 .spots__title {
-    min-width: 500px;
-    max-width: 800px;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 20px 20px 20px 20px;
 }
 
 .spots__title-main {
@@ -33,18 +34,20 @@
 }
 
 .spots__title-text{
-    display: inline-block;
+    display: block;
     color: var(--spots-text-color);
     font-size: 17px;
     font-weight: 400;
     letter-spacing: 0.51px;
+    margin-top: 20px;
+    width: auto;
 }
 
 .carousel__inner-slide-icon {
     height: 315px;
     width: 352px;
     object-fit: cover;
-    margin: 10px;
+    margin: 16px;
 }
 
 
@@ -112,7 +115,7 @@
     align-items: center;
     text-align: center;
     box-sizing: border-box;
-    max-width: 500px;
+    width: 100%;
 }
 
 .quote-svg {
@@ -127,11 +130,15 @@
 .quote__text-main {
     font-family: 'Playfair Display';
     color: var(--ui-block-title-color-light);
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 600;
     position: relative;
     max-width: 100%;
     word-wrap: break-word;
+    letter-spacing: normal;
+    line-height: 33.84px;
+    text-align: center;
+    vertical-align: baseline;
 }
 
 .quote__text-name {
@@ -182,4 +189,46 @@
     position: initial;
     opacity: 0.2;
     top: 50%;
+}
+
+@media (max-width: 404px) {
+    .spots__title {
+        min-width: unset;
+        max-width: unset;
+        text-align: center;
+    }
+    
+    .spots__title-subtitle,
+    .spots__title-partsubtitle {
+        font-size: 28px;
+    }
+    
+    .spots__title-partsubtitle {
+        display: block;
+        margin-top: 10px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .quote {
+        max-width: 720px;
+        margin: 0 auto;
+    }
+
+    .spots__title {
+        max-width: 1170px;
+        margin: 0 auto;
+    }
+}
+@media only screen and (min-width: 992px) {
+    .quote {
+        max-width: 960px;
+        margin: 0 auto;
+    }
+}
+@media only screen and (min-width: 1200px) {
+    .quote {
+        max-width: 1170px;
+        margin: 0 auto;
+    }
 }
