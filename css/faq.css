@@ -45,7 +45,6 @@
 }
 
 .faq__title-text {
-
     color: var(--spots-text-color);
     padding-top: 25px;
     font-size: 19px;
@@ -64,14 +63,14 @@
 
 .acordion .acordion__part {
     position: relative;
-    margin: 10px 10px;
+    margin: 0 25px;
 }
 
 
 .acordion .acordion__part-major {
     color: var(--ui-text-color-light);
     position: relative;
-    padding: 10px 0;
+    padding: 0 10px 0 0;
     cursor: pointer;
     font-size: 17px;
 }
@@ -79,13 +78,15 @@
 .acordion__part-major::before {
     content: "+";
     color: var(--ui-text-color-light);
-    padding: 0 20px;
+    position: absolute;
+    top: 40%;
+    left: -25px;
+    padding: 0 10px 0 0;
     font-size: 30px;
     transform: translateY(-50%);
 }
 
 .acordion .acordion__part-minor {
-    content: "-";
     position: relative;
     height: 0;
     color: var(--spots-text-color);
