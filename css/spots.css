@@ -65,7 +65,7 @@
     justify-content: center;
     gap: 15px;
 }
-
+/*
 .slide {
     display: flex;
     align-items: center;
@@ -75,7 +75,7 @@
     max-width: 500px;
     height: 210px;
 }
-
+*/
 .spots__carousel-prev {
     transform: rotate(180deg);
     padding: 5px;
