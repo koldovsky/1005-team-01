@@ -26,14 +26,28 @@ function showCurrentSlide() {
   }
 }
 
+
 function nextSlide() {
   currentSlide = currentSlide + 1 >= slides.length ? 0 : currentSlide + 1;
   showCurrentSlide();
+  updateDots();
 }
 
 function prevSlide() {
   currentSlide = currentSlide - 1 < 0 ? slides.length - 1 : currentSlide - 1;
   showCurrentSlide();
+  updateDots();
+}
+
+function updateDots() {
+  const dots = document.querySelectorAll(".spots__carousel-dot");
+  for (let i = 0; i < dots.length; i++) {
+  if (i === currentSlide) {
+  dots[i].classList.add("spots__carousel-dot--active");
+  } else {
+  dots[i].classList.remove("spots__carousel-dot--active");
+  }
+  }
 }
 
 showCurrentSlide();
@@ -44,3 +58,16 @@ const btnPrev = document.querySelector(".spots__carousel-prev");
 btnPrev.addEventListener("click", prevSlide);
 
 window.addEventListener("resize", showCurrentSlide);
+
+const dotContainer = document.querySelector(".spots__carousel-dots");
+for (let i = 0; i < slides.length; i++) {
+const dot = document.createElement("button");
+dot.classList.add("spots__carousel-dot");
+dotContainer.appendChild(dot);
+dot.addEventListener("click", () => {
+currentSlide = i;
+showCurrentSlide();
+updateDots();
+});
+}
+updateDots();
