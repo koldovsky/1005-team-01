@@ -1,4 +1,4 @@
-.qwe{
+.blog-container{
   width: 100%;
   max-width: 770px;
   height: auto;
@@ -10,11 +10,9 @@
   padding: 0px 15px;
   gap: 50px;
   width: 100%;
-  position: relative;
   max-width: 1200px;
   height: auto;
   left: 50%;
-  transform: translateX(-50%);
 }
 
 
@@ -33,7 +31,7 @@
   height: 1px;
   background-color: red;
   margin-right: 4px;
-  margin-bottom: 2.3px;
+  margin-bottom: 10.3px;
 }
 
 .text-blog-heading {
