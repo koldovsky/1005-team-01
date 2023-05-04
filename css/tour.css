@@ -40,6 +40,7 @@
     line-height: 28.9px;
     vertical-align: baseline;
     color: var(--main-title);
+    margin-top: 20px;
 }
 
 .tour__info-subtitle-tromso {
@@ -116,10 +117,8 @@
     position: absolute;
     width: 10px;
     height: 10px;
-    border-radius: 50%;
-    background-color: #fff;
-    border: 2px solid #fff;
-    animation: pulse 2s ease-out infinite;
+    
+
   }
   
   #dot1 {
@@ -146,22 +145,8 @@
     top: 84.5%;
     left: 27.5%;
   }
-  
-  @keyframes pulse {
-    0% {
-      transform: scale(0.8);
-    }
-  
-    50% {
-      transform: scale(1);
-      opacity: 0.5;
-    }
-  
-    100% {
-      transform: scale(1.2);
-      opacity: 0;
-    }
-  }
+
+
   
 
   @media (min-width: 767px) {
@@ -175,3 +160,14 @@
         height: 20px;
     }
 }
+
+.tour__hover:not(.no-animation) {
+    display: none;
+    animation: none;
+  }
+
+.tour__hover-container:not(.no-animation) {
+    width: 150px;
+    height: 100px;
+    animation: none;
+  }
