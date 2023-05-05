@@ -177,6 +177,8 @@
 .tour__hover {
   display: none;
   animation: none;
+  border-radius: 5% 5%;
+
 }
 
 .tour__hover-container {
@@ -200,4 +202,8 @@
     transform: scale(1.2);
     opacity: 0;
   }
+}
+
+.hover-left {
+  margin: 0 -150px;
 }
