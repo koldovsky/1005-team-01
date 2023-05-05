@@ -46,7 +46,7 @@
 
 .faq__title-text {
     color: var(--spots-text-color);
-    padding-top: 25px;
+    padding: 10px 0 30px 0;
     font-size: 19px;
 }
 
@@ -54,11 +54,53 @@
     color: var(--ui-block-title-color-light);
 }
 
+@media (min-width: 280px) {
+    .faq .acordion .acordion__part.active .acordion__part-minor {
+        height: 125px;
+    } 
+}
+
+@media (min-width: 360px) {
+    .faq .acordion .acordion__part.active .acordion__part-minor {
+        height: 110px;
+    } 
+}
+
+@media (min-width: 400px) {
+    .faq .acordion .acordion__part.active .acordion__part-minor {
+        height: 85px;
+    } 
+}
+
+@media (min-width: 456px) {
+    .faq .acordion .acordion__part.active .acordion__part-minor {
+        height: 60px;
+    } 
+}
+
+@media (min-width: 633px) {
+    .faq .acordion .acordion__part.active .acordion__part-minor {
+        height: 40px;
+    } 
+}
+
 @media (min-width: 767px) {
     .faq .container {
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
+}
+
+@media (min-width: 768px) {
+    .faq .acordion .acordion__part.active .acordion__part-minor {
+        height: 60px;
+    }
+}
+
+@media (min-width: 1089px) {
+    .faq .acordion .acordion__part.active .acordion__part-minor {
+        height: 40px;
+    } 
 }
 
 .acordion .acordion__part {
@@ -93,14 +135,15 @@
     font-size: 14px;
     text-align: justify;
     overflow: hidden;
-    transition: height 1s ease-in-out;
+    transition: 1s;  
 }
 
 .acordion .acordion__part.active .acordion__part-minor {
-    height: auto;
+    height: 60px;
 }
 
 .acordion .acordion__part.active .acordion__part-major::before {
     content: '-';
     font-size: 30px;
 }
+
