@@ -57,31 +57,31 @@
 @media (min-width: 280px) {
     .faq .acordion .acordion__part.active .acordion__part-minor {
         height: 125px;
-    } 
+    }
 }
 
 @media (min-width: 360px) {
     .faq .acordion .acordion__part.active .acordion__part-minor {
         height: 110px;
-    } 
+    }
 }
 
 @media (min-width: 400px) {
     .faq .acordion .acordion__part.active .acordion__part-minor {
         height: 85px;
-    } 
+    }
 }
 
 @media (min-width: 456px) {
     .faq .acordion .acordion__part.active .acordion__part-minor {
         height: 60px;
-    } 
+    }
 }
 
 @media (min-width: 633px) {
     .faq .acordion .acordion__part.active .acordion__part-minor {
         height: 40px;
-    } 
+    }
 }
 
 @media (min-width: 767px) {
@@ -100,7 +100,7 @@
 @media (min-width: 1089px) {
     .faq .acordion .acordion__part.active .acordion__part-minor {
         height: 40px;
-    } 
+    }
 }
 
 .acordion .acordion__part {
@@ -135,7 +135,7 @@
     font-size: 14px;
     text-align: justify;
     overflow: hidden;
-    transition: 1s;  
+    transition: 1s;
 }
 
 .acordion .acordion__part.active .acordion__part-minor {
@@ -146,4 +146,3 @@
     content: '-';
     font-size: 30px;
 }
-
