@@ -7,4 +7,5 @@ document.addEventListener("partialsLoaded", () => {
     import('./header-phrase.js');
     import('./faq.js');
     import('./spots.js');
+    import('./blog.js');
 });
