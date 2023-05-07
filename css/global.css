@@ -14,6 +14,7 @@
     --header-text-colour: #fff;
     --header-accent-colour: rgba(255, 255, 255, 0.75);
     --header-background-color: rgba(117, 190, 218, 0.0);
+    --header-shadow-color: rgb(192, 192, 192);
     --ui-dark-accent-color: #505155;
     --ui-strong-dark-color: #515558;
     --ui-dark-shade-color: #232428;
