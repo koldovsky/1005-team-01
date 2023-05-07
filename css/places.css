@@ -30,6 +30,26 @@
     margin-bottom: 25px;
 }
 
+.oslo {
+    background-image: url('../img/places-block/oslo.jpeg');
+}
+
+.trondheim {
+    background-image: url('../img/places-block/trondheim.jpeg');
+}
+
+.bode {
+    background-image: url('../img/places-block/bode.jpeg');
+}
+
+.lofoten-islands {
+    background-image: url('../img/places-block/lofoten-iIslands.jpeg');
+}
+
+.tromse{
+    background-image: url('../img/places-block/tromse.jpeg');
+}
+
 
 /*Navigation menu style block*/
 
