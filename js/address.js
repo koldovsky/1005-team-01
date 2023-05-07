@@ -12,7 +12,7 @@ const marginBottomMinusPx = (scrVelue) => {
 
 document.addEventListener("scroll", () => {
     let scrollValue = window.scrollY;
-  if(scrollValue >= 10069.853515625 ){
+  if(scrollValue >= 9170.3330078125){
      prevValue <= scrollValue ? marginBottomMinusPx(scrollValue) : marginBottomPlusPx(scrollValue)  ;
 }
 })

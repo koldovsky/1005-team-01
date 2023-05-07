@@ -1,0 +1,195 @@
+.aboutnorway {
+    padding-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    max-width: 1250px;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-norway {
+    display: flex;
+}
+
+.about-norway__img-a {
+    min-width: 350px;
+    width: 415px;
+    height: 425px;
+    padding: 2rem 3rem 0 0;
+}
+
+.about-norway__img-a img {
+    width: 100%;
+    height: 100%;    
+}
+
+.about-norway__title {
+    display: flex;
+    flex-direction: column;
+    max-width: 280px;
+    width: 100%;
+    margin-right: 4rem;
+}
+
+.about-norway__topic {
+    font-size: 12px;
+    color: grey;
+    padding: 0 0 1rem 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.about-norway__discription {
+    display: flex;
+    flex-direction: column;
+    max-width: 360px;
+    width: 100%;
+    margin-right: 4rem;
+}
+
+.about-norway__text-title {
+    font-size: 48px;
+    color: #505155;;
+    font-family:'Times New Roman', Times, serif;
+    padding-bottom: 4rem;
+}
+
+.about-norway__discription-text {
+    font-size: 24px;
+    font-stretch: ultra-expanded;
+    color: #414349;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 3rem;
+}
+
+.about-norway__cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.about-norway__card-item {
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.about-norway__card-number {
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+    font-family: "Roboto",sans-serif;
+    font-weight: 600;
+    color: #232428;
+}
+
+.about-norway__card-text {
+    display: flex;
+    justify-content: center;
+    color: #505155;
+}
+
+.about-norway__video {
+    background: url(../img/lake-and-ship.jfif);
+    max-width: 1100px;
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    margin: 2rem;
+}
+
+.about-norway__video-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 18rem;
+}
+
+.about-norway__video-logo {
+    width: 69px;
+}
+
+.about-norway__video-text {
+    color: white;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+    padding: 1rem;
+}
+
+
+@media (max-width: 992px) {
+    .aboutnorway {
+        padding-top: 1rem;
+        max-width: 992px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .about-norway {
+        display: flex;
+        align-items: center;
+    }
+    .about-norway__img-a {
+        min-width: 420px;
+        width: 100%;
+        height: auto;
+        padding: 0;
+    }
+    .about-norway__title {
+        margin: 0 auto;
+    }
+    .about-norway__discription {
+        margin: 0 auto;
+    }
+    
+}
+
+@media (max-width: 850px) {
+    .about-norway {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about-norway__title {
+        max-width: 850px;
+        width: 100%;
+    }
+    .about-norway__discription {
+        max-width: 850px;
+        width: 100%;
+    }
+}
+
+@media (max-width:580px) {
+    .about-norway__title {
+        max-width: 460px;
+        margin: 0 auto;
+    }
+    .about-norway__discription {
+        max-width: 460px;
+        margin: 0 auto;
+    }
+    .about-norway__img-a {
+        padding: 0 0 0 0;
+    }
+    .about-norway__video-content {
+        padding: 9rem;
+    }
+}
+
+@media (max-width:420px) {
+    .about-norway__img-a {
+        min-width: 320px;
+        width: 100%;
+        height: auto;
+    }
+    .about-norway__title {
+        max-width: 320px;
+    }
+    .about-norway__discription {
+        max-width: 320px;
+    }
+}
+    
