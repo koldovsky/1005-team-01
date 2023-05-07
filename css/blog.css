@@ -23,12 +23,12 @@
   color: #505155;
 }
 
-.blog-heading__line {
+.blog-heading_line {
   width: 10px;
   height: 1px;
   background-color: red;
   margin-right: 4px;
-  margin-bottom: 2.3px;
+  margin-bottom: 9.3px;
 }
 
 .text-blog-heading {
