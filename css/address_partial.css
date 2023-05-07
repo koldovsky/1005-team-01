@@ -7,6 +7,8 @@
     min-height: 578px;
     margin: 0 auto;
     padding: 0px 40px 5px 40px;
+    /* margin-bottom: 2px; */
+    /* margin-top: 3px; */
 }
 .mounting__container{
     display: grid;

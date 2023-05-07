@@ -45,9 +45,8 @@
 }
 
 .faq__title-text {
-
     color: var(--spots-text-color);
-    padding-top: 25px;
+    padding: 10px 0 30px 0;
     font-size: 19px;
 }
 
@@ -55,15 +54,35 @@
     color: var(--ui-block-title-color-light);
 }
 
-.acordion .acordion__part-major {
-    color: var(--ui-text-color-light);
-    position: relative;
-    padding: 10px 0;
-    cursor: pointer;
-    font-size: 17px;
+@media (min-width: 280px) {
+    .faq .acordion .acordion__part.active .acordion__part-minor {
+        height: 125px;
+    }
 }
 
+@media (min-width: 360px) {
+    .faq .acordion .acordion__part.active .acordion__part-minor {
+        height: 110px;
+    }
+}
 
+@media (min-width: 400px) {
+    .faq .acordion .acordion__part.active .acordion__part-minor {
+        height: 85px;
+    }
+}
+
+@media (min-width: 456px) {
+    .faq .acordion .acordion__part.active .acordion__part-minor {
+        height: 60px;
+    }
+}
+
+@media (min-width: 633px) {
+    .faq .acordion .acordion__part.active .acordion__part-minor {
+        height: 40px;
+    }
+}
 
 @media (min-width: 767px) {
     .faq .container {
@@ -72,22 +91,44 @@
     }
 }
 
+@media (min-width: 768px) {
+    .faq .acordion .acordion__part.active .acordion__part-minor {
+        height: 60px;
+    }
+}
+
+@media (min-width: 1089px) {
+    .faq .acordion .acordion__part.active .acordion__part-minor {
+        height: 40px;
+    }
+}
+
 .acordion .acordion__part {
     position: relative;
-    margin: 10px 10px;
+    margin: 0 25px;
+}
+
+
+.acordion .acordion__part-major {
+    color: var(--ui-text-color-light);
+    position: relative;
+    padding: 0 10px 0 0;
+    cursor: pointer;
+    font-size: 17px;
 }
 
 .acordion__part-major::before {
     content: "+";
     color: var(--ui-text-color-light);
-    /* position:; */
-    padding: 0 20px;
+    position: absolute;
+    top: 40%;
+    left: -25px;
+    padding: 0 10px 0 0;
     font-size: 30px;
     transform: translateY(-50%);
 }
 
 .acordion .acordion__part-minor {
-    content: "-";
     position: relative;
     height: 0;
     color: var(--spots-text-color);
@@ -97,17 +138,11 @@
     transition: 1s;
 }
 
-.accordion hr {
-    width: 100%;
-    margin-left: 0;
-    border: 1px solid var(--faq-hr-color);
-}
-
 .acordion .acordion__part.active .acordion__part-minor {
-    height: auto;
+    height: 60px;
 }
 
-.accordion .acordion__part.active .acordion__part-major::before {
+.acordion .acordion__part.active .acordion__part-major::before {
     content: '-';
     font-size: 30px;
 }

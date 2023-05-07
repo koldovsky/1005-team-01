@@ -9,16 +9,16 @@
 
         <div class="places__content">
             <div class="places__links">                                                                                                     <!--Block with links to cities-->
-                <ul class="nav nav-tabs">
-                    <li class="nav-item"><a class="nav-link active" href="#oslo"  data-bs-toggle="tab">Oslo</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#trondheim" data-bs-toggle="tab">Trondheim</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#bode" data-bs-toggle="tab">Bode</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#lofoten-islands" data-bs-toggle="tab">Lofoten Islands</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#tromse" data-bs-toggle="tab">Tromse</a></li>
+                <ul class="places-nav-tab" id="places-nav-tab">
+                    <li class="places-nav-item active"><a class="places-nav-link active" href="#oslo">Oslo</a></li>
+                    <li class="places-nav-item"><a class="places-nav-link" href="#trondheim">Trondheim</a></li>
+                    <li class="places-nav-item"><a class="places-nav-link" href="#bode">Bode</a></li>
+                    <li class="places-nav-item"><a class="places-nav-link" href="#lofoten-islands">Lofoten Islands</a></li>
+                    <li class="places-nav-item"><a class="places-nav-link" href="#tromse">Tromse</a></li>
                 </ul>
             </div>
-            <div class="tab-content">
-                <div class="tab-pane active" id="oslo" role="tabpanel">   
+            <div class="places-content-tab" id="places-content-tab">
+                <div class="places-item active" id="oslo">   
                     <div class="city-photo oslo"></div>                                                                             <!--Oslo block-->
                     <div class="city">
                         <p class="city__point">Oslo - First point</p>
@@ -47,7 +47,7 @@
                     </div>
                 </div>
                 
-                <div class="tab-pane" id="trondheim" role="tabpanel">                                                                       <!--Trondheim block-->
+                <div class="places-item" id="trondheim">                                                                       <!--Trondheim block-->
                     <div class="city-photo trondheim"></div>
                     <div class="city">
                         <p class="city__point">Trondheim - Second point</p>
@@ -75,7 +75,7 @@
                     </div>
                 </div>
 
-                <div class="tab-pane" id="bode" role="tabpanel">                                                                            <!--Bode block-->
+                <div class="places-item" id="bode">                                                                            <!--Bode block-->
                     <div class="city-photo bode"></div>
                     <div class="city">
                         <p class="city__point">Bode - Third point</p>
@@ -102,7 +102,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="tab-pane" id="lofoten-islands" role="tabpanel">                                                                     <!--Lofoten Islands block-->
+                <div class="places-item" id="lofoten-islands">                                                                     <!--Lofoten Islands block-->
                     <div class="city-photo lofoten-islands"></div>
                     <div class="city">
                         <p class="city__point">Lofoten Islands - Fourth point</p>
@@ -129,7 +129,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="tab-pane" id="tromse" role="tabpanel">                                                                             <!--Tromse block-->
+                <div class="places-item" id="tromse">                                                                             <!--Tromse block-->
                     <div class="city-photo tromse"></div>
                     <div class="city">
                         <p class="city__point">Tromse - Final point</p>
