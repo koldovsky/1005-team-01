@@ -1,4 +1,4 @@
-const filePath = '../json-files/places.json';
+const filePath = '../js/places.js';
 const navTabs = document.getElementById('places-nav-tab');
 const tabContent = document.getElementById('places-content-tab');
 
