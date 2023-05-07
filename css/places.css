@@ -30,47 +30,80 @@
     margin-bottom: 25px;
 }
 
-
-/*Bootstrap style block*/
-
-.places__content .nav-tabs {                                                        
-    border-bottom: none; 
-    overflow-x: scroll;                                                                 /*make horizpntal scroll in navigation menu*/
-    overflow-y: hidden;
-    display: grid;
-    grid-template-columns: repeat(5, max-content);
-    border-bottom: 1px solid var(--places-text-menu-color);
-    padding-bottom: -1px;
+.oslo {
+    background-image: url('../img/places-block/oslo.jpeg');
 }
 
-.places__content .nav-tabs::-webkit-scrollbar {                                         /*horizontal scroller size*/
+.trondheim {
+    background-image: url('../img/places-block/trondheim.jpeg');
+}
+
+.bode {
+    background-image: url('../img/places-block/bode.jpeg');
+}
+
+.lofoten-islands {
+    background-image: url('../img/places-block/lofoten-iIslands.jpeg');
+}
+
+.tromse{
+    background-image: url('../img/places-block/tromse.jpeg');
+}
+
+
+/*Navigation menu style block*/
+
+.places-nav-tab {
+    display: flex;
+    flex-wrap: nowrap;
+    list-style: none;
+    margin: 0px;
+    margin-bottom: 10px;
+    padding: 0px;
+    padding-bottom: 0px;
+    border-bottom: 1px solid var(--ui-strong-dark-color);
+    overflow-x: auto;                                                                 /*make horizpntal scroll in navigation menu*/
+    overflow-y: hidden;
+}
+
+
+.places-nav-item {
+    display: inline-block;                                   
+    border-bottom: none;
+    margin: 0;
+    padding: 0;
+}
+
+.places-nav-item a {
+    white-space: nowrap;
+    margin: 10px;
+    text-decoration: none;
+}
+
+.places-nav-item::-webkit-scrollbar {                                         /*horizontal scroller size*/
     width: 10px;
     height: 3px;
 }
 
-.places__content .nav-item .active {
-    border-bottom: 3px solid var(--divider);                                            /*only in active link in navigation panel */
+.places-nav-item.active {
+    border-bottom: 3px solid var(--divider);                                  /*only in active link in navigation panel */
 }
 
-.places__content .nav-tabs::-webkit-scrollbar-thumb {
+.places-nav-item::-webkit-scrollbar-thumb {
     background-color: var(--main-background-color);
 }
 
-.places__content .nav-tabs:hover::-webkit-scrollbar-thumb {                             /*horizontal scroller color when we use it*/
+.places-nav-item:hover::-webkit-scrollbar-thumb {                             /*horizontal scroller color when we use it*/
     background-color: var(--ui-dark-accent-color);
 }
 
-.places__content .nav-link {                                                            /*text color in navigation links*/
+.places-nav-link {                                                            /*text color in navigation links*/
+    z-index: 100;
     color: var(--ui-dark-accent-color);
 }
 
-.places__content .tab-content {
+.tab-content {
     padding-top: 30px;
-}
-
-.places__content .nav-item {
-    display: block;
-    white-space: nowrap;
 }
 
 
@@ -78,6 +111,14 @@
 
 
 /*Tab-content block*/
+
+.places-item {
+    display: none;
+}
+
+.places-item.active {
+    display: block;
+}
 
 .places__content {
     margin-top: 45px;
@@ -92,26 +133,6 @@
     background-position: center;
     width: 100%;
     padding-top: 65%;
-}
-
-.oslo {                                                                                                                     /*background-image form block oslo*/
-    background-image: url(../img/places-block/oslo.jpeg);
-}
-
-.trondheim {
-    background-image: url(../img/places-block/trondheim.jpeg);
-}
-
-.bode {
-    background-image: url(../img/places-block/bode.jpeg);
-}
-
-.lofoten-islands {
-    background-image: url(../img/places-block/lofoten-iIslands.jpeg);
-}
-
-.tromse {
-    background-image: url(../img/places-block/tromse.jpeg);
 }
 
 .city__hotel-info img {
@@ -205,13 +226,17 @@ a.city__button-book:hover {
         box-sizing: border-box;
     }
 
+    .city-photo {
+        margin-right: 15px;
+    }
+
     .tab-content{
         width: 100%;
         margin: 0 auto;
     }
 
     .places__inner {
-        padding: 0px;
+        padding: 0px 24px 0px 24px;
     }
 
     .oslo, .trondheim, .bode, .lofoten-islands, .tromse {
