@@ -58,7 +58,7 @@
 }
 .carousel-indicators {
     position: static;
-    margin-top: 10px; 
+    margin-top: 10px;
 }
 /*.test__alice-hand,
 .test__lili-forest,
@@ -161,3 +161,6 @@
     max-height: 8px;
 }
 */
+.carousel-item {
+    height: auto;
+}
