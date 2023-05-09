@@ -10,4 +10,5 @@ document.addEventListener("partialsLoaded", () => {
     import('./faq.js');
     import('./spots.js');
     import('./app.js');
+    import('./number-counter.js');
 });
