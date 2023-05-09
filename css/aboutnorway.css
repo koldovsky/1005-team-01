@@ -35,31 +35,29 @@
 
 .about-norway__topic {
     font-size: 12px;
-    color: grey;
+    color: var(--faq-hr-color);
     padding: 0 0 1rem 0;
-    font-family: 'Inter', sans-serif;
 }
 
 .about-norway__discription {
     display: flex;
     flex-direction: column;
-    max-width: 360px;
+    max-width: 260px;
     width: 100%;
     margin-right: 4rem;
 }
 
 .about-norway__text-title {
     font-size: 48px;
-    color: #505155;;
-    font-family:'Times New Roman', Times, serif;
-    padding-bottom: 4rem;
+    color: var(--ui-dark-accent-color);
+    font-family: var(--header-title-font-family);
+    padding-bottom: 2rem;
 }
 
 .about-norway__discription-text {
-    font-size: 24px;
+    font-size: 20px;
     font-stretch: ultra-expanded;
-    color: #414349;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: var(--ui-strong-dark-color);
     margin-bottom: 3rem;
 }
 
@@ -81,13 +79,13 @@
     font-size: 60px;
     font-family: "Roboto",sans-serif;
     font-weight: 600;
-    color: #232428;
+    color: var(--places-text-menu-color);
 }
 
 .about-norway__card-text {
     display: flex;
     justify-content: center;
-    color: #505155;
+    color: var(--ui-strong-dark-color);
 }
 
 .about-norway__video {
@@ -112,7 +110,7 @@
 }
 
 .about-norway__video-text {
-    color: white;
+    color: var(--main-background-color);
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: 700;
